@@ -1,0 +1,23 @@
+<?php
+foreach ($this->myLoads as $myLoads):
+
+        echo $this->escape($myLoads->owner). "<br />";
+        echo $this->escape($myLoads->startState). "<br />";
+        echo $this->escape($myLoads->startCity). "<br />";
+        echo $this->escape($myLoads->startZip). "<br />";
+        echo $this->escape($myLoads->endState). "<br />";
+        echo $this->escape($myLoads->endCity). "<br />";
+        echo $this->escape($myLoads->endZip). "<br />";
+        echo $this->escape($myLoads->weight). "<br />";
+        echo $this->escape($myLoads->feet). "<br />";
+        echo $this->escape($myLoads->pickupDate). "<br />";
+        echo $this->escape($myLoads->diliveryDate). "<br />";
+        echo $this->escape($myLoads->truckType). "<br />";
+        echo $this->escape($myLoads->email). "<br />";
+        echo $this->escape($myLoads->phone). "<br />";
+        echo $this->escape($myLoads->extra). "<br />";
+
+        echo "_____________________________________________________" . "<br />";
+
+        endforeach;
+?>

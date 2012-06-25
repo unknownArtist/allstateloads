@@ -1,0 +1,127 @@
+<head>
+
+	<?php echo $this->headScript()->appendFile('/js/script.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/scriptscroller.js') ?>
+    
+
+</head>
+
+
+&nbsp;&nbsp;<h2>Manage Your Loads</h2>
+
+
+
+<div class="mnline1">
+
+
+
+<div class="mnline1left">
+
+
+<div class="mnline1leftheader">
+Loads Posted by You
+</div>
+
+
+<div class="mnline1lefttitle"> 
+<div class="mnline1lefttab1">
+</div>
+<div class="mnline1lefttab">Owner
+</div>
+<div class="mnline1lefttab">Starting Point
+</div>
+<div class="mnline1lefttab">Destination
+</div>
+<div class="mnline1lefttab">Pickup Date
+</div>
+<div class="mnline1lefttab">Delivery Date
+</div>
+</div>
+
+
+
+<div id="accordionmn">
+<?php
+foreach($this->loads as $name): ?>
+	<dl class="accordionmn" id="slider">
+		<dt>
+        
+        <div class="mnline1lefttab1">+
+</div>
+
+<div class="mnline1lefttab"><?php echo Zend_Auth::getInstance()->getIdentity()->member_username; ?>
+</div>
+
+<div class="mnline1lefttab"><?php echo $this->escape($name->startCity); ?> &nbsp; <?php echo $this->escape($name->startState); ?>&nbsp;<?php echo $this->escape($name->startZip); ?>
+</div>
+
+<div class="mnline1lefttab"><?php echo $this->escape($name->endCity); ?>&nbsp;<?php echo $this->escape($name->endState); ?>
+&nbsp;<?php echo $this->escape($name->endZip); ?>
+</div>
+
+<div class="mnline1lefttab"><?php echo $this->escape($name->pickupDate); ?>
+</div>
+<div class="mnline1lefttab"><?php echo $this->escape($name->diliveryDate); ?>
+</div>
+         
+        </dt>
+		<dd>
+		<span>
+		
+        
+        
+ <?php       
+        echo $this->escape($name->owner). "<br />";
+        echo $this->escape($name->startState). "<br />";
+        echo $this->escape($name->startCity). "<br />";
+        echo $this->escape($name->startZip). "<br />";
+        echo $this->escape($name->endState). "<br />";
+        echo $this->escape($name->endCity). "<br />";
+        echo $this->escape($name->endZip). "<br />";
+        echo $this->escape($name->weight). "<br />";
+        echo $this->escape($name->feet). "<br />";
+        echo $this->escape($name->pickupDate). "<br />";
+        echo $this->escape($name->diliveryDate). "<br />";
+        echo $this->escape($name->truckType). "<br />";
+        echo $this->escape($name->email). "<br />";
+        echo $this->escape($name->phone). "<br />";
+        echo $this->escape($name->extra). "<br />";
+
+        echo "<br />";
+
+
+?>
+        
+        
+            
+      	</span>
+		</dd>
+        <?php endforeach; ?>
+	</dl>
+
+</div>
+
+</div>
+
+
+  
+
+</div>
+
+
+ 
+
+
+ <script type="text/javascript">
+
+var slider1=new accordion.slider("slider1");
+slider1.init("slider");
+
+</script>
+
+
+<script type="text/javascript"> 
+
+TINY.scroller.init('scroll','scrollcontent','scrollbar','scroller','buttonclick');
+</script>

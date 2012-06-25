@@ -1,0 +1,93 @@
+    &nbsp;&nbsp;<h2>Manage Your Trucks</h2>
+
+
+
+
+<div class="mnline1">
+
+
+
+<div class="mnline1left">
+
+
+<?php foreach($this->trucks as $truck): ?>
+
+<div class="mnline1leftheader">
+Suggested Trucks 
+</div>
+
+
+<div class="mnline1lefttitle"> 
+<div class="mnline1lefttab1">
+</div>
+<div class="mnline1lefttab">Starting Point
+</div>
+<div class="mnline1lefttab">Destination
+</div>
+<div class="mnline1lefttab">Destination
+</div>
+<div class="mnline1lefttab">Trailer Type
+</div>
+<div class="mnline1lefttab">Company
+</div>
+</div>
+
+
+
+<div id="accordionmn">
+	<dl class="accordionmn" id="slider">
+		<dt>
+        
+        <div class="mnline1lefttab1">+
+</div>
+
+<div class="mnline1lefttab">----
+</div>
+
+
+<div class="mnline1lefttab"> <?php echo $truck['s_city'] . ' '
+        . $truck['s_state'] . ' ' . $truck['s_zip'];?> 
+</div>
+
+<div class="mnline1lefttab"><?php echo $truck['e_city'] . ' '
+        . $truck['e_state'] . ' ' . $truck['e_zip'];?>
+</div>
+
+<div class="mnline1lefttab">----
+</div>
+<div class="mnline1lefttab">----
+</div>
+        
+        </dt>
+		<dd>
+		<span>
+		
+		<?php printf("Public: %s\nTeam: %s\nWeight: %d\nFeet: %d\nTruckAvaible:
+                      %s\nTruck Type: %d\nPhone: %s\n Email: %s, Owner: %s",
+                      $truck['public'], $truck['team'], $truck['weight'],
+                      $truck['feet'], $truck['full'], $truck['type'],
+                      $truck['phone'], $truck['email'], $truck['owner']
+         ); ?>
+            
+      	</span>
+		</dd>
+        
+	</dl>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+  <?php endforeach; ?>
+  
+
+
+  
+
+</div>

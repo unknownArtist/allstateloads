@@ -1,0 +1,149 @@
+
+
+
+
+
+
+&nbsp;&nbsp;<h2>Search Loads</h2>
+
+<div class="bdline1">
+
+<div class="bdline1left">
+<div class="bdline1leftheader">
+Suggested Loads
+</div>
+
+
+<div class="bdline1lefttitle"> 
+<div class="bdline1lefttab1">
+</div>
+<div class="bdline1lefttab">Pickup Date
+</div>
+<div class="bdline1lefttab">Starting Point
+</div>
+<div class="bdline1lefttab">Destination
+</div>
+<div class="bdline1lefttab">Trailer Type
+</div>
+<div class="bdline1lefttab">Company
+</div>
+</div>
+
+
+
+<div id="accordion">
+	<dl class="accordion" id="slider">
+		<dt>
+        
+        <div class="bdline1lefttab1">+
+</div>
+<div class="bdline1lefttab">----
+</div>
+<div class="bdline1lefttab">----
+</div>
+<div class="bdline1lefttab">----
+</div>
+<div class="bdline1lefttab">----
+</div>
+<div class="bdline1lefttab">----
+</div>
+        
+        </dt>
+		<dd>
+		<span>---- <br />----<br />----<br />-------- <br />----<br />----<br />-------- <br />----<br />----<br />----</span>
+		</dd>
+        
+ 
+        
+        
+	</dl>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="bdline1right">
+
+<div class="bdline1rightheader">
+Mileage Meter
+</div>
+
+<div class="bdline1rightcontent">
+<div>
+    <form action="#" onSubmit="showLocation(); return false;">
+		<p><input class="text" type="text" name="address1" placeholder="Leaving From"/></p>
+			<p><input class="text" type="text" name="address2" placeholder="Going To" /></p>
+			<p><input class="submit" type="submit" value="Search" /></p>
+
+	</form>
+    
+    
+  <!--  <div id="autoSuggestionsList">
+    </div> -->
+
+
+
+
+
+
+
+    <div>
+ 
+    <p id="results"></p>
+    </div>
+	</div>
+
+</div>
+
+
+</div>
+
+
+
+
+<div id="truck-side">
+    <h3>Truck Actions</h3>
+    <ul>
+        <li><a href="/dashboard/truck">All Trucks</a></li>
+        <li><a href="/dashboard/index/my-trucks">My Truck List</a></li>
+        <li><a href="/dashboard/truck/create">Add Truck</a></li>
+    </ul>
+</div>
+
+<br />
+<br />
+<br /><br /><br />
+<br /><br />
+<br /><br /><br /><br /><br />
+<br />
+<br />
+<br />
+
+
+
+
+<div id="load-side">
+    <h3>Load Actions</h3>
+    <ul>
+        <li><a href="<?php echo $this->url(array('module' => 'dashboard', 'controller' => 'load', 'action' => 'index')); ?>">All Loads</a></li>
+        <li><a href="<?php echo $this->url(array('module' => 'dashboard', 'controller' => 'load', 'action' => 'mytrucks')); ?>">My Loads List</a></li>
+        <li><a href="<?php echo $this->url(array('module' => 'dashboard', 'controller' => 'load', 'action' => 'add')); ?>">Add Load</a></li>
+
+    </ul>
+</div>
+
+
+
+<br />
+<br /><br /><br />
+<br /><br />
+<br /><br /><br /><br /><br />
+<br />
+<br />

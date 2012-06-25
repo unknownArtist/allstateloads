@@ -1,0 +1,111 @@
+
+<div class="mnline1">
+
+
+
+<div class="mnline1left">
+
+
+<div class="mnline1leftheader">
+Suggested Trucks 
+</div>
+
+
+<div class="mnline1lefttitle"> 
+<div class="mnline1lefttab1">
+</div>
+<div class="mnline1lefttab">Starting Point
+</div>
+<div class="mnline1lefttab">Destination
+</div>
+<div class="mnline1lefttab">Destination
+</div>
+<div class="mnline1lefttab">Trailer Type
+</div>
+<div class="mnline1lefttab">Company
+</div>
+</div>
+
+
+
+<div id="accordionmn">
+	<dl class="accordionmn" id="slider">
+		<dt>
+        
+        <div class="mnline1lefttab1">+
+</div>
+
+<div class="mnline1lefttab">----
+</div>
+
+
+<div class="mnline1lefttab"> 
+</div>
+
+<div class="mnline1lefttab">
+</div>
+
+<div class="mnline1lefttab">----
+</div>
+<div class="mnline1lefttab">----
+</div>
+        
+        </dt>
+		<dd>
+		<span>
+		
+        
+        
+        <?php
+foreach($this->loads as $name):
+        echo $this->escape($name->owner). "<br />";
+        echo $this->escape($name->startState). "<br />";
+        echo $this->escape($name->startCity). "<br />";
+        echo $this->escape($name->startZip). "<br />";
+        echo $this->escape($name->endState). "<br />";
+        echo $this->escape($name->endCity). "<br />";
+        echo $this->escape($name->endZip). "<br />";
+        echo $this->escape($name->weight). "<br />";
+        echo $this->escape($name->feet). "<br />";
+        echo $this->escape($name->pickupDate). "<br />";
+        echo $this->escape($name->diliveryDate). "<br />";
+        echo $this->escape($name->truckType). "<br />";
+        echo $this->escape($name->email). "<br />";
+        echo $this->escape($name->phone). "<br />";
+        echo $this->escape($name->extra). "<br />";
+
+        echo "______________________________________________________" . "<br />" . "<br />";
+endforeach;
+
+?>
+        
+        
+            
+      	</span>
+		</dd>
+        
+	</dl>
+
+</div>
+
+</div>
+
+
+
+
+
+
+  
+
+
+  
+
+</div>
+
+
+
+
+
+ 
+
+

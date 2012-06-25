@@ -1,0 +1,174 @@
+<!--		<?php			
+			$role = Zend_Auth::getInstance()->getIdentity()->member_role;
+			?> -->
+<head>
+
+	<?php echo $this->headScript()->appendFile('/js/script.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/scriptscroller.js') ?>
+    
+
+   
+ 
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAi0R3quTw1dDEVXhGcF91nxTxAhpynYZ10555ctneyaNYboTkExS_9w2nt91kx5AuybmglX-XA0lPLA" type="text/javascript">  
+</script>
+
+
+
+
+
+
+<script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js" type="text/javascript"></script>
+<script>
+var geocoder, location1, location2, gDir;
+ 
+function initialize() {
+	geocoder = new GClientGeocoder();
+	gDir = new GDirections();
+	GEvent.addListener(gDir, "load", function() {
+		var drivingDistanceMiles = gDir.getDistance().meters / 1609.344;
+		var drivingDistanceKilometers = gDir.getDistance().meters / 1000;
+		document.getElementById('results').innerHTML = '<strong> <br /><strong><b>Driving Distance:</b> </strong>' + drivingDistanceMiles + ' miles (or ' + drivingDistanceKilometers + ' kilometers)';
+                
+	});
+}
+ 
+function showLocation() {
+	geocoder.getLocations(document.forms[0].address1.value, function (response) {
+		if (!response || response.Status.code != 200)
+		{
+			alert("Sorry, we were unable to geocode the first address");
+		}
+		else
+		{
+			location1 = {lat: response.Placemark[0].Point.coordinates[1], lon: response.Placemark[0].Point.coordinates[0], address: response.Placemark[0].address};
+			geocoder.getLocations(document.forms[0].address2.value, function (response) {
+				if (!response || response.Status.code != 200)
+				{
+					alert("Sorry, we were unable to geocode the second address");
+				}
+				else
+				{
+					location2 = {lat: response.Placemark[0].Point.coordinates[1], lon: response.Placemark[0].Point.coordinates[0], address: response.Placemark[0].address};
+					gDir.load('from: ' + location1.address + ' to: ' + location2.address);
+				}
+			});
+		}
+	});
+}
+</script>
+
+
+</head>
+
+
+<body onLoad="initialize()" >
+
+        
+                &nbsp;&nbsp;<h2>Post Trucks </h2>
+                                
+                
+
+
+
+
+<div class="bdline1">
+
+
+<div id="scroll2">
+		<div id="scrollcontent">
+
+
+
+<div class="bdline1left2">
+<div class="bdline1leftheader2">
+Please input information to post a truck 
+</div>
+
+<br />
+
+
+
+
+<?php echo $this->form; ?>
+
+
+
+</div>
+
+            
+  
+            
+            
+		</div>
+		<div id="scrollbar">
+			<div id="scroller" class="scroller"></div>
+		</div>
+	</div>
+
+
+
+
+
+ 
+
+
+
+<div class="bdline1right">
+
+<div class="bdline1rightheader">
+Mileage Meter
+</div>
+
+<div class="bdline1rightcontent">
+<div>
+    <form action="#" onSubmit="showLocation(); return false;">
+		<p><input class="text" type="text" name="address1" placeholder="Leaving From"/></p>
+			<p><input class="text" type="text" name="address2" placeholder="Going To" /></p>
+			<p><input class="submit" type="submit" value="Get Mileage" /></p>
+
+	</form>
+    
+    
+  <!--  <div id="autoSuggestionsList">
+    </div> -->
+
+
+
+
+
+
+
+    <div >
+ 
+    <p id="results"></p>
+    </div>
+	</div>
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+var slider1=new accordion.slider("slider1");
+slider1.init("slider");
+
+</script>
+
+
+<script type="text/javascript"> 
+
+TINY.scroller.init('scroll','scrollcontent','scrollbar','scroller','buttonclick');
+</script>
+
+
+

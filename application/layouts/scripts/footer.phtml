@@ -1,0 +1,99 @@
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="current">Main</a></li>
+            <li><a href="index-1.html">About</a></li>
+            <li><a href="index-2.html">services</a></li>
+            <li><a href="index-3.html">packaging</a></li>
+            <li><a href="index-4.html">manufacturing</a></li>
+            <li><a href="index-5.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="left">
+          <span>transportation</span> (c) 2010 &nbsp; | &nbsp; <a href="index-6.html">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+
+
+
+   <script type="text/javascript">
+   // <![CDATA[
+   $(document).ready(function() {
+      $('ul#myRoundabout').roundabout({
+         shape: 'square'
+      });
+	  
+	  var cnn=[]
+	$('#myRoundabout li').each(function(){
+		cnn.push(this)
+	})
+	
+	var curr=0
+	$('.btnPrev').live('click',function(){
+		if(curr<0)
+			curr=cnn.length-1
+		else
+			curr--
+		$(cnn.slice(curr,curr+1)).trigger('click')
+		return false
+	})
+	$('.btnNext').live('click',function(){
+		if(curr<cnn.length)
+			curr++
+		else
+			curr=0
+		$(cnn.slice(curr,curr+1)).trigger('click')
+		return false
+	})
+   });
+   // ]]>
+  </script> 
+  <script type="text/javascript"> Cufon.now(); </script>
+
+
+        
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17947716-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=7368059; 
+var sc_invisible=1; 
+var sc_security="97d4be9a"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="tumblr visitor
+stats" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/7368059/0/97d4be9a/1/"
+alt="tumblr visitor stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+    
+
+
+
+
+
+       

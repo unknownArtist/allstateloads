@@ -1,0 +1,231 @@
+<!-- <?php			
+	$role = Zend_Auth::getInstance()->getIdentity()->member_role;
+			
+				
+				
+				?> -->
+<!-- logo -->
+		<div id="header">	
+            
+            <div id="logo">
+			<h1><a href="http://www.allstateloads.com">All State Loads</a></h1>
+            <p>Dont Drive Unloaded</p>
+		    </div>            
+           
+		   
+           
+            
+			<!-- /logo -->
+			
+            
+            <div class="member">
+    <?php if(!Zend_Auth::getInstance()->hasIdentity()): ?>
+            <form action="/user/login" method="post">
+          		<input placeholder="Username" class="memberlabel" type="text" name="username"/>
+               <input class="memberlabel" placeholder="Password"  type="password" name="password" />
+                <input class="memberinput" type="submit" value="Login"/>
+                
+               &nbsp;&nbsp; <a  href="<?php echo $this->url(array(
+    									'module' => 'default',
+    									'controller' => 'user',
+    									'action' => 'register'));?>
+            		">Not a member?</a>
+            </form>
+    <?php else: ?>
+    	Loged In as <b><?php echo Zend_Auth::getInstance()->getIdentity()->member_username; ?>
+        				
+        				
+                        
+                        </b> <a href="<?php echo $this->url(array(
+    									'module' => 'default',
+    									'controller' => 'user',
+    									'action' => 'logout'));?>
+    							">Logout</a>
+    <?php endif; ?>
+</div>
+            
+            
+         <!-- menu -->
+			
+				
+                
+               <?php  if ($role == 2 ): ?>
+                    <div id="mainmenu">        
+                <ul id="menu">
+                <?php echo $this->navigation()->menu(); ?> 
+                </ul>
+                
+                </div>
+                
+                
+                
+                
+                
+              <?php elseif ($role == 3 ): ?>  
+                  <div id="mainmenu">  
+               <ul id="menu">
+             <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'dashboard',
+    									'controller' => 'index',
+    									'action' => 'index'));
+										?>">Dashboard</a>
+			</li>
+            
+            
+            <li>
+                <a href="<?php //echo $this->url(array(
+    									'module' => 'dashboard',
+    									'controller' => 'search',
+    									'action' => 'loaders'));
+										?>">Search Trucks</a>
+			</li>
+            
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'dashboard',
+    									'controller' => 'load',
+    									'action' => 'add'));
+										?>">Post a Load</a>
+			</li>
+            
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'dashboard',
+    									'controller' => 'manage',
+    									'action' => 'loads'));
+										?>">Manage</a>
+			</li>
+            
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'default',
+    									'controller' => 'user',
+    									'action' => 'profile'));
+										?>">Account settings</a>
+			</li>
+            
+            
+            </ul> 
+                </div>
+             
+            <?php elseif ($role == 4 ):  ?>  
+                  <div id="mainmenu">  
+               <ul id="menu">
+               
+             <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'dashboard',
+    									'controller' => 'index',
+    									'action' => 'index'));
+										?>">Dashboard</a>
+			</li>
+            
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'dashboard',
+    									'controller' => 'search',
+    									'action' => 'truckers'));
+										?>">Search Loads</a>
+			</li>
+            
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'dashboard',
+    									'controller' => 'truck',
+    									'action' => 'create'));
+										?>">Post a Truck</a>
+			</li>
+            
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'dashboard',
+    									'controller' => 'manage',
+    									'action' => 'index'));
+										?>">Manage</a>
+			</li>
+            
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'default',
+    									'controller' => 'user',
+    									'action' => 'profile'));
+										?>">Account settings</a>
+			</li>
+            
+            
+            
+            </ul>     
+                </div>
+                
+             <?php else:  ?> 
+             
+             
+             <div id="mainmenu">  
+             <ul id="menu">
+             <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'default',
+    									'controller' => 'index',
+    									'action' => 'index'));
+										?>">Home</a>
+			</li>
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'default',
+    									'controller' => 'about',
+    									'action' => 'index'));
+										?>">How it works</a>
+			</li>
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'default',
+    									'controller' => 'blog',
+    									'action' => 'index'));
+										?>">Latest News</a>
+			</li>
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'default',
+    									'controller' => 'user',
+    									'action' => 'register'));
+										?>">Sign up Now</a>
+			</li>
+            
+            <li>
+                <a href="<?php echo $this->url(array(
+    									'module' => 'default',
+    									'controller' => 'contact',
+    									'action' => 'index'));
+										?>">Contact Us</a>
+			</li>
+            
+            
+            </ul>
+           </div>
+
+
+ 		
+             <?php endif; ?>
+					<!--
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>-->
+			
+			
+			<!-- /menu -->   
+            
+            
+     	</div>	       
+            
+            
+			

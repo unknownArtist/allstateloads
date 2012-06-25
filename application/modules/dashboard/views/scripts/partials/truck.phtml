@@ -1,0 +1,19 @@
+<?php foreach($this->trucks as $truck): ?>
+<div id="truck">
+    <div id="go"> <p>Go From 
+        <?php echo $truck['s_city'] . ' '
+        . $truck['s_state'] . ' ' . $truck['s_zip'];?> 
+         To
+        <?php echo $truck['e_city'] . ' '
+        . $truck['e_state'] . ' ' . $truck['e_zip'];?> </p>
+    </div>
+    <div id="data">
+        <?php printf("Public: %s\nTeam: %s\nWeight: %d\nFeet: %d\nTruckAvaible:
+                      %s\nTruck Type: %d\nPhone: %s\n Email: %s",
+                      $truck['public'], $truck['team'], $truck['weight'],
+                      $truck['feet'], $truck['full'], $truck['type'],
+                      $truck['phone'], $truck['email']
+         ); ?>
+    </div>
+</div>
+<?php endforeach; ?>

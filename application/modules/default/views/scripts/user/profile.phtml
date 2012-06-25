@@ -1,0 +1,114 @@
+
+
+<!--		<?php			
+			$role = Zend_Auth::getInstance()->getIdentity()->member_role;
+			?> -->
+<head>
+
+	<?php echo $this->headScript()->appendFile('/js/script.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/scriptscroller.js') ?>
+    
+
+   
+
+
+
+</head>
+
+
+<body onLoad="initialize()" >
+
+        
+                &nbsp;&nbsp;<h2>Account Settings</h2>
+                                
+                
+
+
+
+
+<div class="bdline1">
+
+
+<div id="scroll2">
+		<div id="scrollcontent">
+
+
+
+<div class="bdline1left2">
+<div class="bdline1leftheader2">
+    <?php echo $this->data['member_username']; ?> your account settings<br /><br />
+</div>
+<br /><br />
+
+
+	<p>Email: <?php echo $this->data['member_email']; ?></p>
+    <br /><br />
+    
+    
+	<!--  <a href="/user/change-email">Change email address</a><br/> -->
+	<a href="/user/change-password" class="submit" ><input  type="button" class="submit" value="Change Password"></a>
+
+
+
+
+
+
+
+</div>
+
+            
+  
+            
+            
+		</div>
+		<div id="scrollbar">
+			<div id="scroller" class="scroller"></div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+<div class="advert">
+
+<a href="http://www.winwinhost.com" target="_blank" > <img  src="../images/red.png" alt="winwinhost" /> </a>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+var slider1=new accordion.slider("slider1");
+slider1.init("slider");
+
+</script>
+
+
+<script type="text/javascript"> 
+
+TINY.scroller.init('scroll','scrollcontent','scrollbar','scroller','buttonclick');
+</script>
+
+
+
+        
+
+
+

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata>
+    <nav>
+        
+        <home>
+            <label>Home</label>
+            <module>default</module>
+            <controller>index</controller>
+            <action>index</action>
+            <resource>index</resource>
+            <privilege>index</privilege>
+        </home>
+		
+		<about>
+            <label>How it works</label>
+            <module>default</module>
+            <controller>about</controller>
+            <action>index</action>
+            <resource>about</resource>
+            <privilege>about</privilege>s
+        </about>
+		
+		<resources>
+            <label>Resources</label>
+            <module>default</module>
+            <controller>resources</controller>
+            <action>index</action>
+            <resource>resources</resource>
+            <privilege>resources</privilege>s
+        </resources>
+		
+		
+		<testimonials>
+            <label>Testimonials</label>
+            <module>default</module>
+            <controller>testimonials</controller>
+            <action>index</action>
+            <resource>testimonials</resource>
+            <privilege>testimonials</privilege>s
+        </testimonials>
+		
+		
+	
+	
+	
+	<signup>
+            <label>Sign up Now</label>
+            <module>default</module>
+            <controller>user</controller>
+            <action>register</action>
+            <resource>signup</resource>
+            <privilege>signup</privilege>s
+        </signup>
+		
+		
+		<contact>
+            <label>Contact Us</label>
+            <module>default</module>
+            <controller>contact</controller>
+            <action>index</action>
+            <resource>contact</resource>
+            <privilege>contact</privilege>s
+        </contact>
+		
+		
+		
+		
+		
+
+        <dashboard>
+            <label>Dashboard</label>
+            <module>dashboard</module>
+            <controller>index</controller>
+            <action>index</action>
+            <resource>dashboard:index</resource>
+            <privilege>index</privilege>
+        </dashboard>
+		
+		
+		<searchloads>
+            <label>Search Loads</label>
+            <module>dashboard</module>
+            <controller>search</controller>
+            <action>loaders</action>
+            <resource>dashboard:search</resource>
+            <privilege>loaders</privilege>
+        </searchloads>
+		
+		
+		
+		<searchtrucks>
+            <label>Search Trucks</label>
+            <module>dashboard</module>
+            <controller>search</controller>
+            <action>truckers</action>
+            <resource>dashboard:search</resource>
+            <privilege>trucks</privilege>
+        </searchtrucks>
+		
+	  
+	
+       
+	    <addtrucks>
+            <label>Post a Truck</label>
+            <module>dashboard</module>
+            <controller>truck</controller>
+            <action>create</action>
+            <resource>dashboard:truck</resource>
+            <privilege>create</privilege>
+        </addtrucks>	
+		
+		
+		
+		
+		<addloads>
+            <label>Post a Load</label>
+            <module>dashboard</module>
+            <controller>load</controller>
+            <action>add</action>
+            <resource>dashboard:load</resource>
+            <privilege>add</privilege>
+        </addloads>
+		
+		
+		<managetrucks>
+            <label>Manage Trucks</label>
+            <module>dashboard</module>
+            <controller>manage</controller>
+            <action>index</action>
+            <resource>dashboard:manage</resource>
+            <privilege>index</privilege>
+        </managetrucks>
+	
+	
+
+		
+		<manageloads>
+            <label>Manage Loads</label>
+            <module>dashboard</module>
+            <controller>manage</controller>
+            <action>loads</action>
+            <resource>dashboard:manage</resource>
+            <privilege>index</privilege>
+        </manageloads>
+			
+	
+		
+
+        <profile>
+            <label>Account settings</label>
+            <module>default</module>
+            <controller>user</controller>
+            <action>profile</action>
+            <resource>user</resource>
+            <privilege>profile</privilege>
+        </profile>
+
+        
+
+    </nav>
+</configdata>

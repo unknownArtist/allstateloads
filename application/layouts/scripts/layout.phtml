@@ -1,0 +1,65 @@
+<?php echo $this->doctype(); ?>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>  
+  	 <?php echo $this->headMeta(); ?>
+ 	 <?php echo $this->headTitle(); ?>
+     <?php echo $this->headLink()->prependStylesheet('/css/style.css'); ?>
+     
+ 	 <?php echo $this->headLink()->prependStylesheet('/css/reset.css'); ?>
+ 	 <?php echo $this->headLink()->prependStylesheet('/css/grid.css'); ?>
+ 	 <?php echo $this->headLink()->prependStylesheet('/css/prettyPhoto.css'); ?>
+ 	 
+    
+    <?php echo $this->headScript()->appendFile('/js/jquery-1.4.1.min.js') ?>
+	<?php echo $this->headScript()->appendFile('/js/cufon-yui.js') ?>
+	<?php echo $this->headScript()->appendFile('/js/Myriad_Pro_italic_600.font.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/Myriad_Pro_italic_400.font.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/cufon-replace.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/roundabout.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/easing.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/roundabout_shapes.js') ?>
+    
+    
+      
+    
+    
+
+   
+        <?php echo $this->dojo();
+             echo $this->dojo()->addStylesheetModule('dijit.themes.tundra');?>
+
+</head>  
+   
+
+
+
+<body class="tundra">
+
+<?php if(!Zend_Auth::getInstance()->hasIdentity()): ?>
+
+<!-- header -->
+<div  class="tail-top"> 
+			<header>
+			<?php echo $this->partial('header.phtml'); ?>
+ 	</header>
+            <?php echo $this->layout()->content; ?>
+
+
+<?php else: ?>
+ 	
+			<header>
+			<?php echo $this->partial('header.phtml'); ?>
+	</header>
+			<!-- pitch -->			
+			
+                 <?php echo $this->layout()->content; ?>
+         
+			
+			<!-- /pitch -->
+ 
+<?php endif; ?>
+   
+   <?php echo $this->partial('footer.phtml'); ?>     
+ 
+</body>
+</html>
