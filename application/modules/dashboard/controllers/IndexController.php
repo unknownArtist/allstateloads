@@ -6,6 +6,8 @@ class Dashboard_IndexController extends Zend_Controller_Action
 	
 	public function indexAction()
     {
+
+        
        $Identity = Zend_Auth::getInstance()->getIdentity()->member_id;
           
                  $db = Zend_Db::factory('Pdo_Mysql', array(

@@ -1,0 +1,99 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 00:02:17
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 00:02:17 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=frm_posttruck&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 04:25:14
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 04:25:14 W3SVC8299 74.124.206.13 GET /index.php - 80 - 220.181.108.79 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 05:25:46
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 05:25:46 W3SVC8299 74.124.206.13 GET /index.php - 80 - 180.76.5.113 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 07:49:11
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 07:49:11 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 07:49:11 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=blog&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 07:50:07 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=frm_posttruck&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 09:06:44
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 09:06:44 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.27 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 09:06:44 W3SVC8299 74.124.206.13 GET /sitemap2.xml - 80 - 66.249.68.27 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 11:08:52
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 11:08:51 W3SVC8299 74.124.206.13 HEAD /images/portfolio3.jpg - 80 - 220.181.108.112 Baiduspider-image+(+http://www.baidu.com/search/spider.htm) 200 0 0
+2011-12-09 11:08:55 W3SVC8299 74.124.206.13 GET /images/portfolio3.jpg - 80 - 220.181.108.123 Baiduspider-image+(+http://www.baidu.com/search/spider.htm) 200 0 0
+2011-12-09 11:12:03 W3SVC8299 74.124.206.13 GET /index.php - 80 - 180.76.5.146 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 13:45:31
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 13:45:31 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=blog&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 17:27:38
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 17:27:38 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=contact&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 19:22:52
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 19:22:51 W3SVC8299 74.124.206.13 GET /index.php - 80 - 66.102.12.86 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/534.51+(KHTML,+like+Gecko;+Google+Web+Preview)+Chrome/12.0.742+Safari/534.51 500 0 64
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 19:50:55
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 19:50:55 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 19:50:55 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=blog&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 19:51:58 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=user&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 20:12:57
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 20:12:57 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=contactus&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 20:15:52 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=rightside&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 20:16:21 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=rightsidemenu&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 20:19:53 W3SVC8299 74.124.206.13 GET /index.php - 80 - 173.225.17.50 Mozilla/5.0+(Macintosh;+U;+Intel+Mac+OS+X+10.6;+en-US;+rv:1.9.2)+Gecko/20100115+Firefox/3.6 500 0 0
+2011-12-09 20:24:55 W3SVC8299 74.124.206.13 GET /index.php - 80 - 173.225.17.50 Mozilla/5.0+(Macintosh;+U;+Intel+Mac+OS+X+10.6;+en-US;+rv:1.9.2)+Gecko/20100115+Firefox/3.6 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 21:19:21
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 21:19:21 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 180.76.6.37 Baiduspider+(+http://www.baidu.com/search/spider.htm) 500 0 64
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 21:46:41
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 21:46:40 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 207.46.199.52 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 500 0 64
+2011-12-09 21:47:40 W3SVC8299 74.124.206.13 GET /index.php - 80 - 207.46.199.52 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 500 0 0
+2011-12-09 21:49:07 W3SVC8299 74.124.206.13 GET /index.php - 80 - 207.46.199.52 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 500 0 0
+2011-12-09 22:03:59 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=rightmenu&affid= 80 - 66.249.68.168 Googlebot-Image/1.0 500 0 0
+2011-12-09 22:05:08 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 204.236.226.210 ia_archiver+(+http://www.alexa.com/site/help/webmasters;+crawler@alexa.com) 500 0 0
+2011-12-09 22:05:57 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=leftside&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 22:09:47 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=default&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 22:40:42
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 22:40:42 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=login&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 22:44:43 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=logoff&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 22:48:12 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=mainpage&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 22:49:14 W3SVC8299 74.124.206.13 GET /index.php - 80 - 207.46.199.52 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 500 0 0
+2011-12-09 22:54:24 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=signup&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-09 23:06:41 W3SVC8299 74.124.206.13 HEAD /images/detail_red.png - 80 - 220.181.108.102 Baiduspider-image+(+http://www.baidu.com/search/spider.htm) 200 0 0
+2011-12-09 23:06:45 W3SVC8299 74.124.206.13 GET /images/detail_red.png - 80 - 220.181.108.99 Baiduspider-image+(+http://www.baidu.com/search/spider.htm) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-09 23:23:17
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-09 23:23:17 W3SVC8299 74.124.206.13 GET /index.php - 80 - 75.101.181.182 Mozilla/5.0/Nutch-1.1+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.13) 500 0 0
+2011-12-09 23:23:17 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 75.101.181.182 Mozilla/5.0/Nutch-1.1+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.13) 500 0 64

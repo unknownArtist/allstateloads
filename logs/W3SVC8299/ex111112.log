@@ -1,0 +1,212 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 00:11:03
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 00:11:03 W3SVC8299 74.124.206.13 GET /index.php - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:11:03 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:03 W3SVC8299 74.124.206.13 GET /js/menu.js - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:03 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:03 W3SVC8299 74.124.206.13 GET /js/fancyzoom.min.js - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:03 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:03 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:03 W3SVC8299 74.124.206.13 GET /images/aslsprite2.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:04 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:04 W3SVC8299 74.124.206.13 GET /images/red.jpg - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:04 W3SVC8299 74.124.206.13 GET /images/zoom/closebox.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:04 W3SVC8299 74.124.206.13 GET /images/detail_red.jpg - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:11:04 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:11:07 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:12:26 W3SVC8299 74.124.206.13 GET /index.php - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /js/fancyzoom.min.js - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /images/aslsprite2.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /images/zoom/closebox.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /images/detail_red.jpg - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:27 W3SVC8299 74.124.206.13 GET /images/red.jpg - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:12:29 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:12:30 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:12:37 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:12:37 W3SVC8299 74.124.206.13 GET /index.php - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:12:39 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:12:39 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:16:39 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=contact&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:16:39 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 304 0 0
+2011-11-12 00:16:40 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:16:42 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:16:46 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=contact&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:16:47 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:16:49 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:16:49 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:16:50 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:17:37 W3SVC8299 74.124.206.13 POST /index.php part=&part=index&part=index&part=user&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 302 0 0
+2011-11-12 00:17:39 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:17:40 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:17:42 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:17:46 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:17:46 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:17:48 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:17:48 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:43 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=user&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 302 0 0
+2011-11-12 00:18:45 W3SVC8299 74.124.206.13 GET /index.php - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:46 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:18:48 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:18:52 W3SVC8299 74.124.206.13 GET /images/zoom/tl.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:52 W3SVC8299 74.124.206.13 GET /images/zoom/tm.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:52 W3SVC8299 74.124.206.13 GET /images/zoom/tr.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:52 W3SVC8299 74.124.206.13 GET /images/zoom/ml.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:52 W3SVC8299 74.124.206.13 GET /images/zoom/mr.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:52 W3SVC8299 74.124.206.13 GET /images/zoom/bl.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:52 W3SVC8299 74.124.206.13 GET /images/zoom/bm.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:52 W3SVC8299 74.124.206.13 GET /images/zoom/br.png - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:53 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:18:53 W3SVC8299 74.124.206.13 GET /index.php - 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 200 0 0
+2011-11-12 00:18:55 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:18:55 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 110.39.131.156 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.106+Safari/535.2 500 0 0
+2011-11-12 00:20:38 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.242 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 04:45:00
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 04:45:00 W3SVC8299 74.124.206.13 GET /index.php - 80 - 87.250.252.241 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 06:52:11
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 06:52:11 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 204.236.226.210 ia_archiver+(+http://www.alexa.com/site/help/webmasters;+crawler@alexa.com) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 07:47:13
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 07:47:13 W3SVC8299 74.124.206.13 GET /index.php - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 64
+2011-11-12 07:47:13 W3SVC8299 74.124.206.13 GET /index.php - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 64
+2011-11-12 07:47:22 W3SVC8299 74.124.206.13 GET /index.php - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:22 W3SVC8299 74.124.206.13 GET /js/fancyzoom.min.js - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:22 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:23 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:23 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:23 W3SVC8299 74.124.206.13 GET /images/zoom/closebox.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:24 W3SVC8299 74.124.206.13 GET /images/detail_red.jpg - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:24 W3SVC8299 74.124.206.13 GET /images/red.jpg - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:24 W3SVC8299 74.124.206.13 GET /images/aslsprite2.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:24 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:47:25 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 500 0 0
+2011-11-12 07:47:25 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /index.php - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /js/fancyzoom.min.js - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /images/detail_red.jpg - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /images/red.jpg - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /images/aslsprite2.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:06 W3SVC8299 74.124.206.13 GET /images/zoom/closebox.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:07 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 500 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /index.php - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 200 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /js/fancyzoom.min.js - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /images/red.jpg - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /images/detail_red.jpg - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /images/aslsprite2.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:39 W3SVC8299 74.124.206.13 GET /images/zoom/closebox.png - 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 304 0 0
+2011-11-12 07:48:41 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 80.239.242.212 Opera/9.80+(Android;+Opera+Mini/6.5.26571/26.1098;+U;+en)+Presto/2.8.119+Version/10.54 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 09:51:01
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 09:51:00 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.242 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 10:35:23
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 10:35:23 W3SVC8299 74.124.206.13 GET /images/thumb2.jpg - 80 - 220.181.108.112 Baiduspider-image+(+http://www.baidu.com/search/spider.htm) 200 0 0
+2011-11-12 10:41:16 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 204.236.226.210 ia_archiver+(+http://www.alexa.com/site/help/webmasters;+crawler@alexa.com) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 12:53:24
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 12:53:24 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.76 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 13:52:36
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 13:52:36 W3SVC8299 74.124.206.13 GET /index.php - 80 - 220.181.108.151 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 14:53:25
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 14:53:25 W3SVC8299 74.124.206.13 GET /index.php - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:25 W3SVC8299 74.124.206.13 GET /js/fancyzoom.min.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:25 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:27 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:27 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:27 W3SVC8299 74.124.206.13 GET /images/red.jpg - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:27 W3SVC8299 74.124.206.13 GET /images/detail_red.jpg - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:28 W3SVC8299 74.124.206.13 GET /images/zoom/closebox.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:28 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 0
+2011-11-12 14:53:28 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:28 W3SVC8299 74.124.206.13 GET /images/aslsprite2.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:35 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:35 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-11-12 14:53:37 W3SVC8299 74.124.206.13 GET /images/zoom/tl.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:37 W3SVC8299 74.124.206.13 GET /images/zoom/tm.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:37 W3SVC8299 74.124.206.13 GET /images/zoom/tr.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:37 W3SVC8299 74.124.206.13 GET /images/zoom/ml.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:37 W3SVC8299 74.124.206.13 GET /images/zoom/mr.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:37 W3SVC8299 74.124.206.13 GET /images/zoom/bl.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:37 W3SVC8299 74.124.206.13 GET /images/zoom/bm.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:37 W3SVC8299 74.124.206.13 GET /images/zoom/br.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:53:38 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 0
+2011-11-12 14:54:03 W3SVC8299 74.124.206.13 POST /index.php part=&part=index&part=index&part=user&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 302 0 0
+2011-11-12 14:54:04 W3SVC8299 74.124.206.13 GET /js/scriptscroller.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:04 W3SVC8299 74.124.206.13 GET /js/packed.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:04 W3SVC8299 74.124.206.13 GET /js/script.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:04 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:04 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:05 W3SVC8299 74.124.206.13 GET /images/bg2.jpg - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:05 W3SVC8299 74.124.206.13 GET /images/scroll-arrows.gif - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:05 W3SVC8299 74.124.206.13 GET /images/scroll-bg.gif - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:06 W3SVC8299 74.124.206.13 GET /images/bg4.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:06 W3SVC8299 74.124.206.13 GET /images/red.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:08 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=user&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 302 0 0
+2011-11-12 14:54:08 W3SVC8299 74.124.206.13 GET /index.php - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:09 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 0
+2011-11-12 14:54:16 W3SVC8299 74.124.206.13 POST /index.php part=&part=index&part=index&part=user&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 302 0 0
+2011-11-12 14:54:16 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-11-12 14:54:18 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-11-12 14:54:18 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-11-12 14:57:51 W3SVC8299 74.124.206.13 GET /index.php - 80 - 82.165.37.69 Mozilla/5.0+(compatible;+IPTCBOT; 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 18:34:55
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 18:34:55 W3SVC8299 74.124.206.13 GET /images/thumb3.jpg - 80 - 220.181.108.101 Baiduspider-image+(+http://www.baidu.com/search/spider.htm) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 20:29:22
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 20:29:22 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.76 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 20:48:05
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 20:48:05 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.242 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 22:45:55
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 22:45:55 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 65.52.108.12 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) 500 0 64
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-11-12 23:22:45
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-11-12 23:22:45 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.76 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0

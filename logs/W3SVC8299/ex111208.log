@@ -1,0 +1,251 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-08 00:08:38
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-08 00:08:37 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:08:37 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:09:04 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:09:04 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:09:14 W3SVC8299 74.124.206.13 POST /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:09:15 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:09:18 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:09:18 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:09:42 W3SVC8299 74.124.206.13 POST /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:09:42 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:19:18 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=user&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:19:25 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:20:30 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:20:30 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:20:40 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:20:42 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:20:43 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=user&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 302 0 0
+2011-12-08 00:20:45 W3SVC8299 74.124.206.13 GET /index.php - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:20:45 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:21:05 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=about&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:21:05 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:21:18 W3SVC8299 74.124.206.13 GET /index.php - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:21:18 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:23:22 W3SVC8299 74.124.206.13 GET /index.php - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:23:23 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:26:27 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:26:27 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:26:29 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:26:29 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:26:30 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:26:30 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:26:31 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:07 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:12 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:12 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:30:13 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:30:16 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:16 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 304 0 0
+2011-12-08 00:30:16 W3SVC8299 74.124.206.13 GET /js/menu.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 304 0 0
+2011-12-08 00:30:16 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 304 0 0
+2011-12-08 00:30:16 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 304 0 0
+2011-12-08 00:30:17 W3SVC8299 74.124.206.13 GET /images/logo.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 304 0 0
+2011-12-08 00:30:17 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:30:17 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:30:23 W3SVC8299 74.124.206.13 GET /index.php - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:23 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 64
+2011-12-08 00:30:33 W3SVC8299 74.124.206.13 POST /index.php part=&part=index&part=index&part=user&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 302 0 0
+2011-12-08 00:30:35 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:35 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:30:39 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:43 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:43 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:44 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:44 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:30:49 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:49 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:49 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:30:51 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=user&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:30:51 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:30:52 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 00:31:00 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 00:31:00 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-08 05:24:37
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-08 05:24:37 W3SVC8299 74.124.206.13 GET /index.php - 80 - 220.181.108.86 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-08 05:54:32
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-08 05:54:32 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 207.46.199.231 msnbot-media/1.1+(+http://search.msn.com/msnbot.htm) 500 0 0
+2011-12-08 05:54:33 W3SVC8299 74.124.206.13 GET /index.php - 80 - 207.46.199.231 msnbot-media/1.1+(+http://search.msn.com/msnbot.htm) 200 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-08 08:03:37
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-08 08:03:37 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 123.125.71.21 Baiduspider+(+http://www.baidu.com/search/spider.htm) 500 0 64
+2011-12-08 08:10:13 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=leftside&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-08 12:38:06
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-08 12:38:06 W3SVC8299 74.124.206.13 GET /js/menu.js - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:06 W3SVC8299 74.124.206.13 GET /index.php - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:06 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:08 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:08 W3SVC8299 74.124.206.13 GET /images/red.png - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:09 W3SVC8299 74.124.206.13 GET /images/detail_red.png - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:14 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:14 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 0
+2011-12-08 12:38:14 W3SVC8299 74.124.206.13 GET /images/logo.png - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:16 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:16 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:16 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 0
+2011-12-08 12:38:17 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 0
+2011-12-08 12:38:19 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 0
+2011-12-08 12:38:27 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=contact&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:28 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 64
+2011-12-08 12:38:28 W3SVC8299 74.124.206.13 GET /images/bg2.jpg - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:33 W3SVC8299 74.124.206.13 GET /images/pitch/pitch1.jpg - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:40 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=about&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:41 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 64
+2011-12-08 12:38:41 W3SVC8299 74.124.206.13 GET /images/thumb11.png - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:38:44 W3SVC8299 74.124.206.13 GET /images/thumb22.png - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:40:56 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=blog&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:40:59 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=user&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:40:59 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 64
+2011-12-08 12:41:05 W3SVC8299 74.124.206.13 GET /index.php - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:41:07 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 64
+2011-12-08 12:41:36 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 1236
+2011-12-08 12:42:09 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=blog&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:42:11 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 64
+2011-12-08 12:42:15 W3SVC8299 74.124.206.13 GET /index.php - 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 12:42:17 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 212.52.54.46 Mozilla/5.0+(Windows+NT+6.1;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 64
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-08 13:08:22
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-08 13:08:22 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-08 13:08:22 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=about&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 200 0 0
+2011-12-08 13:14:49 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=rightside&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+2011-12-08 13:22:22 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=rightsidemenu&affid= 80 - 66.249.68.168 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-08 15:48:01
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-08 15:48:00 W3SVC8299 74.124.206.13 GET /index.php - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:00 W3SVC8299 74.124.206.13 GET /js/menu.js - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:01 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:01 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:01 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:01 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:03 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:03 W3SVC8299 74.124.206.13 GET /images/logo.png - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:03 W3SVC8299 74.124.206.13 GET /images/detail_red.png - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:03 W3SVC8299 74.124.206.13 GET /images/red.png - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:04 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 200 0 0
+2011-12-08 15:48:06 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 64
+2011-12-08 15:48:09 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 0
+2011-12-08 15:48:09 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 0
+2011-12-08 15:48:12 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 0
+2011-12-08 15:48:23 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 0
+2011-12-08 15:49:58 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 0
+2011-12-08 15:54:35 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 64
+2011-12-08 15:56:04 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 76.91.49.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+rv:8.0)+Gecko/20100101+Firefox/8.0 500 0 64
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-08 16:56:39
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-08 16:56:39 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=robots&affid= 80 - 204.236.226.210 ia_archiver+(+http://www.alexa.com/site/help/webmasters;+crawler@alexa.com) 500 0 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2011-12-08 20:56:36
+#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status 
+2011-12-08 20:56:36 W3SVC8299 74.124.206.13 GET /js/menu.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:36 W3SVC8299 74.124.206.13 GET /index.php - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:36 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:38 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:39 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:39 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:39 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 0
+2011-12-08 20:56:40 W3SVC8299 74.124.206.13 GET /images/red.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:40 W3SVC8299 74.124.206.13 GET /images/logo.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:45 W3SVC8299 74.124.206.13 GET /images/detail_red.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 20:56:45 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 500 0 0
+2011-12-08 20:56:47 W3SVC8299 74.124.206.13 POST /index.php part=&part=index&part=index&part=user&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 302 0 0
+2011-12-08 20:56:48 W3SVC8299 74.124.206.13 GET /js/script.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:48 W3SVC8299 74.124.206.13 GET /js/packed.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:48 W3SVC8299 74.124.206.13 GET /js/scriptscroller.js - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:48 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:49 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 20:56:50 W3SVC8299 74.124.206.13 GET /images/scroll-bg.gif - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:50 W3SVC8299 74.124.206.13 GET /images/scroll-arrows.gif - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:50 W3SVC8299 74.124.206.13 GET /images/bg2.jpg - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:50 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:50 W3SVC8299 74.124.206.13 GET /images/bg4.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:50 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 20:56:54 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:54 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:54 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:55 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:58 W3SVC8299 74.124.206.13 GET /images/bg3.png - 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:56:58 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 20:57:01 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 20:57:02 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 21:02:07 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 304 0 0
+2011-12-08 21:02:07 W3SVC8299 74.124.206.13 GET /index.php - 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:07 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 304 0 0
+2011-12-08 21:02:07 W3SVC8299 74.124.206.13 GET /images/logo.png - 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 304 0 0
+2011-12-08 21:02:09 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 500 0 0
+2011-12-08 21:02:10 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 500 0 0
+2011-12-08 21:02:12 W3SVC8299 74.124.206.13 POST /index.php part=&part=index&part=index&part=user&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 302 0 0
+2011-12-08 21:02:14 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:15 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:16 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:21 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:22 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:29 W3SVC8299 74.124.206.13 GET /js/menu.js - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:29 W3SVC8299 74.124.206.13 GET /index.php - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:30 W3SVC8299 74.124.206.13 GET /css/main.css - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:30 W3SVC8299 74.124.206.13 GET /js/jquery-1.4.1.min.js - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:34 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 500 0 0
+2011-12-08 21:02:34 W3SVC8299 74.124.206.13 GET /images/logo.png - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:35 W3SVC8299 74.124.206.13 GET /images/pointer.png - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:37 W3SVC8299 74.124.206.13 GET /images/red.png - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:37 W3SVC8299 74.124.206.13 GET /images/dot.png - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:39 W3SVC8299 74.124.206.13 GET /images/aslsprite.jpg - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:40 W3SVC8299 74.124.206.13 GET /images/detail_red.png - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:42 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 500 0 0
+2011-12-08 21:02:45 W3SVC8299 74.124.206.13 POST /index.php part=&part=index&part=index&part=user&affid= 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 302 0 0
+2011-12-08 21:02:47 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:47 W3SVC8299 74.124.206.13 GET /js/script.js - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:47 W3SVC8299 74.124.206.13 GET /js/packed.js - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:47 W3SVC8299 74.124.206.13 GET /js/scriptscroller.js - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:48 W3SVC8299 74.124.206.13 GET /images/bg2.jpg - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:48 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:48 W3SVC8299 74.124.206.13 GET /images/scroll-bg.gif - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:48 W3SVC8299 74.124.206.13 GET /images/scroll-arrows.gif - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:51 W3SVC8299 74.124.206.13 GET /images/bg4.png - 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:51 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:54 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:02:55 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:03:36 W3SVC8299 74.124.206.13 GET /index.php - 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:03:37 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:03:38 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:03:40 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:03:40 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:03:42 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:04:00 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 21:04:00 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 21:04:03 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 21:04:07 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 21:04:07 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 21:04:09 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 21:04:15 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 21:04:17 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
+2011-12-08 21:04:20 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 21:04:24 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 21:04:30 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:04:32 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:06:00 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:06:02 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:06:02 W3SVC8299 74.124.206.13 GET /images/bg3.png - 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:06:03 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=favicon&affid= 80 - 180.178.176.22 Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/535.2+(KHTML,+like+Gecko)+Chrome/15.0.874.121+Safari/535.2 200 0 0
+2011-12-08 21:06:32 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=dashboard&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 0
+2011-12-08 21:06:33 W3SVC8299 74.124.206.13 GET /index.php part=&part=index&part=index&part=css&affid= 80 - 188.26.166.10 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.9.2.24)+Gecko/20111103+BTRS87692+Firefox/3.6.24+(+.NET+CLR+3.5.30729) 200 0 64
