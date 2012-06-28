@@ -108,6 +108,7 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
         //Allow shipper
         $this->_acl->allow('shipper', 'truck')
                    ->allow('shipper', 'dashboard:index')
+                   ->allow('shipper', 'user', array('change-password'))
 				   ->allow('shipper', 'dashboard:load')
 				   ->allow('shipper', 'dashboard:search')
 				   ->allow('shipper', 'dashboard:manage')

@@ -54,7 +54,7 @@ class UserController extends Zend_Controller_Action {
             if ($form->isValid($this->_request->getPost())) {
                 $member = new Default_Model_DbTable_Members();
                 if (true === $message = $member->login($form->getValue('username'),
-                                                       $form->getValue('password'))) {
+                                                       sha1($form->getValue('password')))) {
                     $this->_redirect('/dashboard/');
                 } else {
                     $this->view->error = $message;
@@ -85,7 +85,7 @@ class UserController extends Zend_Controller_Action {
                 $data = array(
 
                     'member_username'   =>      $form->getValue('username'),
-                    'member_pass'       =>      $pass,
+                    'member_pass'       =>      sha1($pass),
                     'member_email'      =>      $form->getValue('email'),
                     'member_role'       =>      $form->getValue('account_type'),
                     'member_phone'      =>      $form->getValue('phone'),
@@ -106,7 +106,7 @@ class UserController extends Zend_Controller_Action {
     	if ($this->_request->isPost()) {
     		if ($form->isValid($this->_request->getPost())) {
     			$member = new Default_Model_DbTable_Members();
-    			$data = array('member_pass' => $form->getValue('password'));
+    			$data = array('member_pass' => sha1($form->getValue('password')));
     			$where = 'member_id = ' . Zend_Auth::getInstance()->getIdentity()->member_id . ' ';
     			$member->update($data, $where);
 
@@ -160,27 +160,29 @@ class UserController extends Zend_Controller_Action {
          $smtpConfigs = array(
             
             'auth'          =>      'login',
-            'username'      =>      'support@allstateloads.com',
-            //'username'      =>      'nayatelorg',
-            'password'      =>      'SUP0T1(2_+',
-            //'password'      =>      'quickbrown123',
-           // 'ssl'           =>      'ssl',
-            'port'          =>      425
+            //'username'      =>      'support@allstateloads.com',
+            'username'      =>      'nayatelorg',
+            //'password'      =>      'SUP0T1(2_+',
+            'password'      =>      'quickbrown123',
+            'ssl'           =>      'ssl',
+            'port'          =>      465
             
         );
         
-        $smtpTransportObject = new Zend_Mail_Transport_Smtp('smtp.allstateloads.com', $smtpConfigs);
+        $smtpTransportObject = new Zend_Mail_Transport_Smtp('smtp.gmail.com', $smtpConfigs);
         
         $mail = new Zend_Mail();
-  
         
-  
+
  
         $mail->addTo($email,"allstateloads confirmation")
              ->setFrom('nayatelorg@gmail.com', "nayatel")
-             ->setSubject('Accounet Confirmation')
-             ->setBodyText('your pin code is' ." " .$pass . " ". 'After you logged in kindly set you desired password from Account Settings')
+             ->setSubject('Account Confirmation')
+             ->setBodyText('Log in with the given pin code ' ." " .$pass . " ". 'After you logged in kindly set your desired password from Account Settings')
              ->send($smtpTransportObject);
+
+                            
+                          
     }
 
    
