@@ -107,8 +107,8 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
 
         //Allow shipper
         $this->_acl->allow('shipper', 'truck')
+				   ->allow('shipper', 'user', array('change-password'))
                    ->allow('shipper', 'dashboard:index')
-                   ->allow('shipper', 'user', array('change-password'))
 				   ->allow('shipper', 'dashboard:load')
 				   ->allow('shipper', 'dashboard:search')
 				   ->allow('shipper', 'dashboard:manage')
@@ -131,11 +131,11 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
         //Allow trucker
         $this->_acl->allow('trucker', 'truck')
                    ->allow('trucker', 'dashboard:index')
-                   ->allow('trucker', 'dashboard:truck')
+                   ->allow('trucker', 'dashboard:truck',array('create'))
 				   ->allow('trucker', 'dashboard:search')
 				   ->allow('trucker', 'dashboard:manage')
 				   ->allow('trucker', 'user', array('logout', 'profile'));
-                  		   
+                  		  
 				   
 				   
 				      
