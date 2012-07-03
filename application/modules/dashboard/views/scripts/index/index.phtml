@@ -1,7 +1,6 @@
 <!--		<?php			
 			$role = Zend_Auth::getInstance()->getIdentity()->member_role;
-			?> -->
-<head>
+			?> --><head>
 
 	<?php echo $this->headScript()->appendFile('/js/script.js') ?>
     <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
@@ -62,18 +61,22 @@ function showLocation() {
 </head>
 
 
-<body onLoad="initialize()" >
 
-        
-                &nbsp;&nbsp;<h2>Dashboard</h2>
-                                
-                
+
+
+      
 
 <?php  if ($role == 2 ): ?>
 
 
 
-<div class="bdline1">
+
+<div id="main">  
+      
+      <section id="content">
+ 		<h2>Dashboard</h2>
+                                
+                
 
 
 <div id="scroll">
@@ -176,15 +179,23 @@ Suggested Loads
 	</div>
 
 
+</section>
+
+</div>
+
+
 
 
 
  <?php elseif ($role == 3 ): ?>  
 
 
+<div id="main">  
+      
+      <section id="content">
+ 		<h2>Dashboard: Shipper Account</h2>
 
 
-<div class="bdline1">
 
 
 <div id="scroll">
@@ -231,25 +242,30 @@ Suggested Trucks
 	</div>
 
 
-</div>
 
+</section>
+
+</div>
 
 
 <?php elseif ($role == 4 ):  ?>  
 
 
+<div id="main">  
+      
+      <section id="content">
+ 		<h2>Dashboard:Trucker Account</h2>
 
 
 
-<div class="bdline1">
+<div id="scroll_stable">
 
 
-<div id="scroll">
 		<div id="scrollcontent">
 
 
 
-<div class="bdline1left">
+
 <div class="bdline1leftheader">
 Suggested Loads 
 </div>
@@ -272,46 +288,6 @@ Suggested Loads
 </div>
 
 
-
-<div id="accordion">
-<?php foreach($this->states as $dd): ?>
-	<dl class="accordion" id="slider">
-		<dt>
-        
-        <div class="bdline1lefttab1">+
-</div>
-<div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-</div>
-<div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-</div>
-<div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-</div>
-<div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-</div>
-<div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-</div>
-
-        
-        </dt>
-		<dd>
-		<span>
-Company : <?php echo $dd['extra']."<br />"; ?>  <br>
-Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-
-</span>
-		</dd>
-        
-        <?php endforeach; ?>
-
-	</dl>
-        
-    
-</div>
-
-
-
-</div>
-
             
   
             
@@ -321,21 +297,11 @@ Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
 			<div id="scroller" class="scroller"></div>
 		</div>
 	</div>
-
-
-</div>
-
-
-
-
-
-
-<?php endif; ?>
-
-
-
-
-<div class="bdline1right">
+    
+    
+    
+    
+    <div class="bdline1right">
 
 <div class="bdline1rightheader">
 Mileage Meter
@@ -372,49 +338,78 @@ Mileage Meter
 
 
 </div>
+    
+    
+    
+    
+
+<div id="scroll">
+		<div id="scrollcontent">
+
+            <div id="accordion">
+<?php foreach($this->states as $dd): ?>
+	<dl class="accordion" id="slider">
+		<dt>
+        
+        <div class="bdline1lefttab1">+
+</div>
+<div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
+</div>
+<div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
+</div>
+<div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
+</div>
+<div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
+</div>
+<div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
+</div>
+
+        
+        </dt>
+		<dd>
+		<span>
+Company : <?php echo $dd['extra']."<br />"; ?>  <br>
+Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
+
+</span>
+		</dd>
+        
+        <?php endforeach; ?>
+
+	</dl>
+        
+    
 </div>
 
 
 
-<!-- <div id="truck-side">
-    <h3>Truck Actions</h3>
-    <ul>
-        <li><a href="/dashboard/truck">All Trucks</a></li>
-        <li><a href="/dashboard/index/my-trucks">My Truck List</a></li>
-        <li><a href="/dashboard/truck/create">Add Truck</a></li>
-    </ul>
+
+
+		</div>
+		<div id="scrollbar">
+			<div id="scroller" class="scroller"></div>
+		</div>
+	</div>
+    
+    
+    
+
+
+
+
+
+</section>
+
 </div>
 
-<br />
-<br />
-<br /><br /><br />
-<br /><br />
-<br /><br /><br /><br /><br />
-<br />
-<br />
-<br />
+
+<?php endif; ?>
 
 
 
 
-<div id="load-side">
-    <h3>Load Actions</h3>
-    <ul>
-        <li><a href="<?php echo $this->url(array('module' => 'dashboard', 'controller' => 'load', 'action' => 'index')); ?>">All Loads</a></li>
-        <li><a href="<?php echo $this->url(array('module' => 'dashboard', 'controller' => 'load', 'action' => 'mytrucks')); ?>">My Loads List</a></li>
-        <li><a href="<?php echo $this->url(array('module' => 'dashboard', 'controller' => 'load', 'action' => 'add')); ?>">Add Load</a></li>
 
-    </ul>
-</div>
 
--->
-
-<br />
-<br /><br /><br />
-<br /><br />
-<br /><br /><br /><br /><br />
-<br />
-<br />
 
 
 

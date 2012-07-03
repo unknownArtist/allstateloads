@@ -6,17 +6,10 @@
 	<?php echo $this->headScript()->appendFile('/js/script.js') ?>
     <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
     <?php echo $this->headScript()->appendFile('/js/scriptscroller.js') ?>
-    
-
-   
+      
  
 <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAi0R3quTw1dDEVXhGcF91nxTxAhpynYZ10555ctneyaNYboTkExS_9w2nt91kx5AuybmglX-XA0lPLA" type="text/javascript">  
 </script>
-
-
-
-
-
 
 <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js" type="text/javascript"></script>
 <script>
@@ -62,22 +55,17 @@ function showLocation() {
 </head>
 
 
-<body onLoad="initialize()" >
-
-        
-                &nbsp;&nbsp;<h2>Post Loads </h2>
-                                
-                
-
-
-
+<div id="main">  
+      
+      <section id="content">
+      
+      <h2>Post Loads </h2>
 
 <div class="bdline1">
 
 
 <div id="scroll2">
 		<div id="scrollcontent">
-
 
 
 <div class="bdline1left2">
@@ -89,28 +77,16 @@ Please input information to post a load
 <br />
 
 
-
 <?php echo $this->addLoad; ?>
 
 
 </div>
-
-            
   
-            
-            
 		</div>
 		<div id="scrollbar">
 			<div id="scroller" class="scroller"></div>
 		</div>
 	</div>
-
-
-
-
-
- 
-
 
 
 <div class="bdline1right">
@@ -134,11 +110,6 @@ Mileage Meter
     </div> -->
 
 
-
-
-
-
-
     <div >
  
     <p id="results"></p>
@@ -152,10 +123,9 @@ Mileage Meter
 
 </div>
 
+</section>
 
-
-
-
+</div>
 
 
     <script type="text/javascript">

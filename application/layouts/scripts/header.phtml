@@ -3,6 +3,7 @@
      ?> -->
 
 <header>
+
 	<div id="main1">
 
             
@@ -30,7 +31,7 @@
                        <a href="<?php echo $this->url(array(
     									'module' => 'default',
     									'controller' => 'user',
-    									'action' => 'logout'));?>">  <input class="submit2" type="submit" value="Logout"/></a>
+    									'action' => 'logout'));?>">  <input class="submit" type="submit" value="Logout"/></a>
                              
     <?php endif; ?>
 </div>
@@ -43,7 +44,9 @@
         <?php  if ($role == 2 ): ?> 
          <nav>
             <ul class="sf-menu">
-              	<?php echo $this->navigation()->menu(); ?>             
+            <li>
+              	<?php echo $this->navigation()->menu(); ?> 
+                </li>            
             </ul>
           </nav>  
           

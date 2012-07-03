@@ -1,25 +1,9 @@
-
-
-
-
-
-
-
-
-
-
-        
-        
-        
-        
-        
-        
-        <!--		<?php			
+<!--		<?php			
 			$role = Zend_Auth::getInstance()->getIdentity()->member_role;
 			?> -->
 <head>
 
-	<?php echo $this->headScript()->appendFile('/js/script.js') ?>
+	<?php echo $this->headScript()->appendFile('/js/script2.js') ?>
     <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
     <?php echo $this->headScript()->appendFile('/js/scriptscroller.js') ?>
     
@@ -78,10 +62,11 @@ function showLocation() {
 </head>
 
 
-<body onLoad="initialize()" >
-
-        
-                &nbsp;&nbsp;<h2>Searched Results</h2>
+<div id="main">  
+      
+      <section id="content">
+      
+      <h2>Searched Results</h2>
                                 
                 
 
@@ -154,12 +139,6 @@ Mileage Meter
   <!--  <div id="autoSuggestionsList">
     </div> -->
 
-
-
-
-
-
-
     <div >
  
     <p id="results"></p>
@@ -168,37 +147,17 @@ Mileage Meter
 
 </div>
 
+</div>
 
 </div>
 
-
-<div class="advert2">
-
-<a href="http://www.winwinhost.com" target="_blank" > <img  src="../../images/red.png" alt="winwinhost" /> </a>
-
-</div>
-
+</section>
 
 </div>
 
 
 
 
-
-
-
-    <script type="text/javascript">
-
-var slider1=new accordion.slider("slider1");
-slider1.init("slider");
-
-</script>
-
-
-<script type="text/javascript"> 
-
-TINY.scroller.init('scroll','scrollcontent','scrollbar','scroller','buttonclick');
-</script>
 
 
 

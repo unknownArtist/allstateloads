@@ -5,6 +5,7 @@
  	 <?php echo $this->headTitle(); ?>
      <?php echo $this->headLink()->prependStylesheet('/css/style.css'); ?>
      
+     
  	 <?php echo $this->headLink()->prependStylesheet('/css/reset.css'); ?>
  	 <?php echo $this->headLink()->prependStylesheet('/css/grid.css'); ?>
  	 <?php echo $this->headLink()->prependStylesheet('/css/prettyPhoto.css'); ?>
@@ -20,6 +21,7 @@
     <?php echo $this->headScript()->appendFile('/js/roundabout_shapes.js') ?>
     
     
+    
       
     
     
@@ -33,17 +35,21 @@
 
 
 
-<body class="tundra">
+<body class="tundra" onLoad="initialize()" >
+
+<div  class="tail-top">
+
 
 <?php if(!Zend_Auth::getInstance()->hasIdentity()): ?>
 
 <!-- header -->
-<div  class="tail-top"> 
+
 			<header>
 			<?php echo $this->partial('header.phtml'); ?>
  	</header>
             <?php echo $this->layout()->content; ?>
-
+            
+			 <?php echo $this->partial('footer.phtml'); ?> 
 
 <?php else: ?>
  	
@@ -53,13 +59,14 @@
 			<!-- pitch -->			
 			
                  <?php echo $this->layout()->content; ?>
-         
+                 
+           <?php echo $this->partial('footer.phtml'); ?>
 			
 			<!-- /pitch -->
  
 <?php endif; ?>
    
-   <?php echo $this->partial('footer.phtml'); ?>     
- 
+      </div>
+
 </body>
 </html>

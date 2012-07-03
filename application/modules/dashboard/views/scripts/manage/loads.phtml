@@ -1,19 +1,35 @@
 <head>
 
-	<?php echo $this->headScript()->appendFile('/js/script.js') ?>
+	<?php echo $this->headScript()->appendFile('/js/script2.js') ?>
     <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
     <?php echo $this->headScript()->appendFile('/js/scriptscroller.js') ?>
     
 
 </head>
 
+<div id="main">  
+      
+      <section id="content">
+      
+<div id="accordion">
+	<dl class="accordion" id="slider">
+		<dt>About</dt>
+		<dd>
+			<span>This lightweight (1.2 KB) JavaScript accordion can easily be customized to integrate with any website. For more information visit <a href="http://www.leigeber.com">leigeber.com</a>.</span>
+		</dd>
+		
+		<dt>Licensing &amp; Support</dt>
+		<dd>
+			<span>This script is provided as-is with no warranty or guarantee. It is available at no cost for any project, non-commercial or commercial. Paid support is available by <a href="http://www.leigeber.com/contact/">clicking here</a>.</span>
+		</dd>
+	</dl>
+</div>
+     
 
-&nbsp;&nbsp;<h2>Manage Your Loads</h2>
-
+<h2>Manage Your Loads</h2>
 
 
 <div class="mnline1">
-
 
 
 <div class="mnline1left">
@@ -104,24 +120,17 @@ foreach($this->loads as $name): ?>
 
 </div>
 
-
-  
+</div>
+</section>
 
 </div>
-
-
- 
-
 
  <script type="text/javascript">
 
 var slider1=new accordion.slider("slider1");
 slider1.init("slider");
 
-</script>
+var slider2=new accordion.slider("slider2");
+slider2.init("slider2",0,"open");
 
-
-<script type="text/javascript"> 
-
-TINY.scroller.init('scroll','scrollcontent','scrollbar','scroller','buttonclick');
 </script>

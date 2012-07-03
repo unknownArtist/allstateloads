@@ -1,14 +1,114 @@
 
+<!--		<?php			
+			$role = Zend_Auth::getInstance()->getIdentity()->member_role;
+			?> -->
+            
+            
+
+<div id="main">  
+      
+<section id="content">
+
+<h2>Search Trucks</h2>
+
+<div id="scroll">
+		<div id="scrollcontent">
 
 
- <h1>hello this is me </h1>
+
+<div class="bdline1left">
+<div class="bdline1leftheader">
+Suggested Loads 
+</div>
 
 
-&nbsp;&nbsp;<h2>Search Trucks</h2>
+<div class="bdline1lefttitle"> 
+<div class="bdline1lefttab1">
+</div>
+<div class="bdline1lefttab">Load ID 
+</div>
+<div class="bdline1lefttab">Pickup Date
+</div>
+<div class="bdline1lefttab">Delivery Date
+</div>
+<div class="bdline1lefttab">Starting Point
+</div>
+<div class="bdline1lefttab">Destination
+</div>
 
-<div class="bdline1">
+
+</div>
 
 
+
+<div id="accordion">
+<?php foreach($this->states as $dd): ?>
+    
+     <?php if($dd['owner'] != Zend_Auth::getInstance()->getIdentity()->member_id): ?>
+	<dl class="accordion" id="slider">
+		<dt>
+        
+        <div class="bdline1lefttab1">+
+</div>
+<div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
+</div>
+<div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
+</div>
+<div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
+</div>
+<div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
+</div>
+<div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
+</div>
+
+        
+        </dt>
+		<dd>
+		<span>
+        
+       <div class="loadsdesc">
+
+       <img class="loadsdes" src="images/templogo.png" alt="Truckers" />
+       
+
+       
+       <span>
+        Company : <?php echo $dd['extra']."<br />"; ?>  <br>
+		Phone Number  : <?php echo $dd['phone']."<br />"; ?>  <br>
+        Email Address : <?php echo $dd['email']."<br /><br />"; ?>  <br>
+        
+        Space Required: <?php echo $dd['feet']."Square feet"."<br />"; ?>  <br>
+        Weight of the Load  : <?php echo $dd['weight']."Kilograms"."<br />"; ?>  <br>
+       
+       </span>
+       
+       </div> 
+        
+
+
+</span>
+		</dd>
+      <?php endif; ?>      
+        <?php endforeach; ?>
+
+	</dl>
+        
+    
+</div>
+
+
+
+</div>
+
+            
+  
+            
+            
+		</div>
+		<div id="scrollbar">
+			<div id="scroller" class="scroller"></div>
+		</div>
+	</div>
 
 <div class="bdline1right">
 
@@ -47,5 +147,9 @@ Mileage Meter
 </div>
 
 
+</section>
+
 </div>
+
+
 

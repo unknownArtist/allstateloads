@@ -3,8 +3,24 @@
 	$role = Zend_Auth::getInstance()->getIdentity()->member_role;
 					
 				?> -->
-                
-&nbsp;&nbsp;<h2>Manage Your Trucks</h2>
+
+
+<head>
+
+	<?php echo $this->headScript()->appendFile('/js/script.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
+    <?php echo $this->headScript()->appendFile('/js/scriptscroller.js') ?>
+    
+</head>
+
+
+
+
+      <div id="main">  
+      
+      <section id="content">
+
+<h2>Manage Your Trucks</h2>
 
 
 <?php echo $this->partial('partials/truck_all.phtml', array('trucks' => $this->data)); ?>
@@ -16,6 +32,8 @@
 
 
 
+</section>
 
+</div>
 
 
