@@ -23,13 +23,14 @@ class UserController extends Zend_Controller_Action {
                   $getEmail = new Default_Model_DbTable_Members();
                   $formEmail = $form->getValue('email');
                   $where = "member_email = '$formEmail'";
-                  $email = $getEmail->fetchAll($where)->toArray();
+                  $email = $getEmail->fetchRow($where)->toArray();
                   if($email)
                   {
-                      
-                      $data = array('member_pass' => $randNumber = $this->randGenAction());
-                      $getEmail->update($data, $where);
-                      $this->SendEmailAction($formEmail,$randNumber);
+                    $passwrd = $email['member_pass'];
+
+                      // $data = array('member_pass' => $randNumber = $this->randGenAction());
+                      //$getEmail->update($data, $where);
+                      $this->SendEmailAction($formEmail,$passwrd);
                       
                       $this->view->successMessage = "Your password is sent to this email"." ".$formEmail;
                       
@@ -152,7 +153,7 @@ class UserController extends Zend_Controller_Action {
             $alt = 1;
         }
     }
-    return $password;
+    return sha1($password);
     }
 
     private function SendEmailAction($email,$pass) 
@@ -178,7 +179,7 @@ class UserController extends Zend_Controller_Action {
         $mail->addTo($email,"allstateloads confirmation")
              ->setFrom('nayatelorg@gmail.com', "nayatel")
              ->setSubject('Account Confirmation')
-             ->setBodyText('Log in with the given pin code ' ." " .$pass . " ". 'After you logged in kindly set your desired password from Account Settings')
+             ->setBodyText('Log in with the given pin code ' ." " .$pass . " ". 'After logging in kindly set your desired password from Account Settings')
              ->send($smtpTransportObject);
 
                             
