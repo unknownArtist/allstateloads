@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.10deb1
+-- version 3.4.5
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 05, 2011 at 07:14 PM
--- Server version: 5.1.54
--- PHP Version: 5.3.5-1ubuntu7.3
+-- Generation Time: Jul 09, 2012 at 08:57 AM
+-- Server version: 5.5.16
+-- PHP Version: 5.3.8
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -39,11 +40,6 @@ CREATE TABLE IF NOT EXISTS `cargos` (
   PRIMARY KEY (`cargo_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
---
--- Dumping data for table `cargos`
---
-
-
 -- --------------------------------------------------------
 
 --
@@ -62,11 +58,6 @@ CREATE TABLE IF NOT EXISTS `companies` (
   `company_owner` int(11) NOT NULL,
   PRIMARY KEY (`company_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
-
---
--- Dumping data for table `companies`
---
-
 
 -- --------------------------------------------------------
 
@@ -113,23 +104,17 @@ CREATE TABLE IF NOT EXISTS `loads` (
   `phone` varchar(255) NOT NULL,
   `extra` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=28 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=25 ;
 
 --
 -- Dumping data for table `loads`
 --
 
 INSERT INTO `loads` (`id`, `owner`, `startState`, `startCity`, `startZip`, `endState`, `endCity`, `endZip`, `weight`, `feet`, `pickupDate`, `diliveryDate`, `truckType`, `company`, `email`, `phone`, `extra`) VALUES
-(17, 8, 'CA', 'San Jose', '26387', 'CA', 'San Fancisco', '387883', '5200', '5520', '2011-11-03', '2011-11-03', '1', '', 'adilshakar@gmail.com', '+923459549921', 'winwinhost adil'),
-(18, 9, 'CA', 'San Jose', '263877', 'CA', 'San Fancisco', '387883', '5200', '5520', '2011-11-03', '2011-11-03', '3', '', 'robert@gmail.com', 'PHone', 'winwinhost robert'),
-(20, 8, 'AK', 'Los Angeles', '91406', 'WA', 'Washington', 'none', '1000', '700', '2011-11-12', '2011-11-12', '1', '', 'none', '3344966', 'company1'),
-(21, 8, 'AK', 'Los Angeles', '91406', 'WA', 'Washington', 'none', '1000', '700', '2011-11-12', '2011-11-15', '1', '', 'none', 'none', 'company1'),
-(22, 8, 'AK', 'Los Angeles', '91406', 'WA', 'Washington', 'none', '1000', '700', '2011-11-12', '2011-11-15', '1', '', 'none', 'none', 'company1'),
-(23, 11, 'AL', 'Los Angeles', 'none', 'AL', 'Washington', 'none', '2000', '1000', '2011-11-25', '2011-11-26', '2', '', 'adrian@winwinhost.com', 'none', 'company2'),
-(24, 11, 'CA', 'City1', 'none', 'FL', 'City2', 'none', 'none', '700', '2011-11-16', '2011-11-29', '4', '', 'email', 'number2', 'company3'),
-(25, 11, 'AL', 'City1', '91406', 'AL', 'Washington', 'none', '1', '700', '2011-11-30', '2011-11-29', '3', '', 'copilu0@yahoo.com', 'number1', 'company3'),
-(26, 11, 'CA', 'Los Angeles', '1', 'WA', 'Washington', '111', '100', '2', '2011-11-10', '2011-11-12', '3', '', 'copilu0@yahoo.com', 'number1', 'company3'),
-(27, 11, 'CA', 'Los Angeles', '2', 'WA', 'Washington', '112', '50', '2', '2011-11-12', '2011-11-14', '3', '', 'adrian@winwinhost.com', 'number2', 'company2');
+(24, 8, 'AL', 'San Jose', '001', 'AL', 'Los Angeles', '002', '100', '50', '2012-07-07', '2012-07-14', '3', '', 'adilshakar@gmail.com', '+923459549921', 'First Shippers Co'),
+(21, 8, 'CA', 'San Jose', '001', 'CA', 'Los Angeles', '002', '100', '100', '2013-07-07', '2012-07-14', '2', '', 'adilshakar@gmail.com', '+923459549921', 'First Shippers Co'),
+(23, 8, 'CA', 'San Jose', '001', 'CA', 'Los Angeles', '002', '100', '100', '2012-07-07', '2012-07-14', '3', '', 'adilshakar@gmail.com', '+923459549921', 'First Shippers Co'),
+(22, 8, 'CA', 'San Jose', '001', 'CA', 'Los Angeles', '002', '100', '100', '2012-07-07', '2012-07-14', '3', '', 'adilshakar@gmail.com', '+923459549921', 'First Shippers Co');
 
 -- --------------------------------------------------------
 
@@ -147,19 +132,16 @@ CREATE TABLE IF NOT EXISTS `members` (
   `member_phone` varchar(12) COLLATE utf8_bin DEFAULT NULL,
   PRIMARY KEY (`member_id`),
   UNIQUE KEY `member_email_UNIQUE` (`member_email`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=11 ;
 
 --
 -- Dumping data for table `members`
 --
 
 INSERT INTO `members` (`member_id`, `member_username`, `member_email`, `member_pass`, `member_role`, `member_company`, `member_phone`) VALUES
-(8, 'adil', 'adilshakar@gmail.com', 'adil', 2, NULL, NULL),
-(9, 'robert', 'robertbain2001@gmail.com', 'robert', 2, NULL, NULL),
-(10, 'copilu0', 'copilu0@yahoo.com', 'toma', 2, 0, 'none'),
-(11, 'adrian', 'adrian@winwinhost.com', 'adrian', 2, 0, 'none'),
-(12, 'Muhammad Saqib', 'rooott@gmail.com', 'ejyvevysenyjesy', 2, 0, '+3459564449'),
-(13, 'zend', 'zend@gmail.com', 'dazumamuzazumam', 4, 0, '234234');
+(8, 'shipper', 'adilshakar@gmail.com', 'shipper', 3, NULL, NULL),
+(9, 'trucker', 'robertbain2001@gmail.com', 'trucker', 4, NULL, NULL),
+(10, 'combo', 'combo@gmail.com', 'combo', 2, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -173,14 +155,17 @@ CREATE TABLE IF NOT EXISTS `news` (
   `news_posted` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `news_text` text COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`news_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=5 ;
 
 --
 -- Dumping data for table `news`
 --
 
 INSERT INTO `news` (`news_id`, `news_title`, `news_posted`, `news_text`) VALUES
-(1, 'All State Loads is Free', '2011-11-17 18:14:49', 'Truckers and Freight Forwarders ,All State Loads is free of charge. It provides you with the best features across the web to find loads for the truckers and trucks for the freight forwarders.Make an account today and see for yourself that there is loads of business for you and your company.');
+(1, 'Hello world', '2011-03-08 22:28:52', 'sit malesuada lacus pellus parturpiscing Pellenterdumat maecenatoque cras a magna nibh et quis diam ames et Laoremvolutpat ac dolor eget eget temper lacus vestibus velit lacus venean Magnaipsum tellus morbi leo aliquat nulla convallis pellentesque'),
+(2, 'Hello', '2011-03-08 22:28:52', 'sit malesuada lacus pellus parturpiscing. Pellenterdumat maecenatoque cras a magna nibh et quis diam ames et. Laoremvolutpat ac dolor eget eget temper lacus vestibus velit lacus venean. Magnaipsum tellus morbi leo aliquat nulla convallis pellentesque.'),
+(3, 'asada', '2012-05-31 10:58:05', 'zcadadadada'),
+(4, 'Hello', '2012-06-02 07:25:28', 'test 123 test 123');
 
 -- --------------------------------------------------------
 
@@ -211,21 +196,15 @@ CREATE TABLE IF NOT EXISTS `newtrucks` (
   `endDate` date NOT NULL,
   `via` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=34 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=29 ;
 
 --
 -- Dumping data for table `newtrucks`
 --
 
 INSERT INTO `newtrucks` (`owner`, `public`, `s_state`, `s_city`, `s_zip`, `e_state`, `e_city`, `e_zip`, `team`, `full`, `weight`, `feet`, `feet_left`, `type`, `phone`, `email`, `created`, `id`, `startingDate`, `endDate`, `via`) VALUES
-(9, 0, 'AL', 'San Jose', '22010', 'CA', 'haripur', '22011', 0, 0, '5200', '200', '', '', '2342342', 'paulgammons@gmail.com', '2011-11-23', 33, '0000-00-00', '0000-00-00', ''),
-(8, 0, 'CA', 'San Jose', '26387', 'CA', 'San Fancisco', '387883', 0, 0, '7000', '', '7000', '1', '+923459549921', 'adilshakar@gmail.com', '2011-11-02', 23, '2011-11-03', '2011-11-03', ''),
-(8, 0, 'CA', 'Los Angeles', '91406', 'WA', 'Washington', '', 0, 0, '1000', '', '700', '1', 'none', 'copilu0@yahoo.com', '2011-11-09', 25, '2011-11-17', '2011-11-21', ''),
-(11, 0, 'AL', 'Los Angeles', '91406', 'CT', 'Washington', '', 0, 0, '', '', '', '2', 'none', 'adrian@winwinhost.com', '2011-11-09', 26, '2011-11-18', '2011-11-26', ''),
-(11, 0, '', '', '', '', '', '', 1, 0, '1', '', '700', '1', 'number1', 'adrian@winwinhost.com', '2011-11-09', 28, '2011-11-14', '2011-11-13', ''),
-(11, 0, 'CA', 'Los Angeles', '1', 'WA', 'Washington', '111', 0, 0, '1000', '', '900', '1', 'number1', 'adrian@winwinhost.com', '2011-11-09', 30, '2011-11-10', '2011-11-12', ''),
-(11, 0, 'CA', 'Los Angeles', '2', 'WA', 'Washington', '112', 0, 0, '2000', '', '1000', '1', 'number2', 'copilu0@yahoo.com', '2011-11-09', 31, '2011-11-12', '2011-11-14', ''),
-(11, 0, 'AL', 'http://www.winwinhost.com', '91406', 'AR', 'http://www.winwinhost.com', '111', 0, 0, '1000', '', '1000', '2', 'http://www.winwinhost.com', 'adrian@winwinhost.com', '2011-11-09', 32, '2011-11-10', '2011-11-24', '');
+(9, 1, 'CA', 'San Jose', '001', 'CA', 'Los Angeles', '002', 0, 0, '200', '200', '200', '2', '+923459549921', 'adilshakar@gmail.com', '2012-07-06', 28, '2012-07-07', '2012-07-14', ''),
+(9, 0, 'CA', 'San Jose', '001', 'CA', 'Los Angeles', '002', 0, 0, '100', '100', '100', '2', '+923459549921', 'adilshakar@gmail.com', '2012-06-28', 27, '2012-07-07', '2012-07-14', '');
 
 -- --------------------------------------------------------
 
@@ -390,3 +369,7 @@ INSERT INTO `users` (`user_id`, `user_name`, `user_pass`, `user_email`, `user_le
 (3, 'robert', 'bain2001', 'robertbain2001@gmail.com', 2),
 (4, 'test', 'test', 'robertbain2001@yahoo.com', 1),
 (5, 'unnnno', '159159', 'unno@unno.lt', 2);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -10,7 +10,7 @@ Trucks Posted by You
 
 
 <div class="mnline1lefttitle"> 
-<div class="mnline1lefttab1">
+<div class="mnline1lefttab0">
 </div>
 <div class="mnline1lefttab">Owner
 </div>
@@ -26,7 +26,6 @@ Trucks Posted by You
 </div>
 <div class="mnline1lefttab">Delete
 </div>
-
 </div>
 
 <div id="accordionmn">
@@ -35,7 +34,7 @@ Trucks Posted by You
     
 		<dt>
        
-        <div class="mnline1lefttab1">+
+        <div class="mnline1lefttab1">
 </div>
 
 <div class="mnline1lefttab"><?php echo Zend_Auth::getInstance()->getIdentity()->member_username; ?>
@@ -53,27 +52,34 @@ Trucks Posted by You
 </div>
 <div class="mnline1lefttab"><?php echo  $truck['full'];?>
 </div>
-<div class="mnline1lefttab">-----
+<div class="mnline1lefttab"><img src="/images/edit.png" />
 </div>
-<div class="mnline1lefttab">-----
+<div class="mnline1lefttab"><img src="/images/cross.png" />
 </div>
 
         
         </dt>
 		<dd>
+
 		<span>
 		
-		<?php printf("Public: %s\nTeam: %s\nWeight: %d\nFeet: %d\nTruckAvaible:
-                      %s\nTruck Type: %d\nPhone: %s\n Email: %s, Owner: %s",
-                      $truck['public'], $truck['team'], $truck['weight'],
-                      $truck['feet'], $truck['full'], $truck['type'],
-                      $truck['phone'], $truck['email'], $truck['owner']
-         ); ?>
+
+    
+           Is it Public ? : <?php echo  $truck['public']."<br/>";?><br/>
+           Team Driven ?: <?php echo  $truck['team']."<br/>";?><br/>
+           Weight Capacity : <?php echo  $truck['weight']."<br/>";?><br/>
+           Space  : <?php echo  $truck['feet']."<br/>";?><br/>
+           Is it Full : <?php echo  $truck['full']."<br/>";?><br/>
+           Type if Truck : <?php echo  $truck['type']."<br/>";?><br/>
+           Phone Number : <?php echo  $truck['phone']."<br/>";?><br/>
+           Email Address : <?php echo  $truck['email']."<br/>";?><br/>
+           Owner  : <?php echo  $truck['owner']."<br/>";?><br/>
+            
             
       	</span>
 		</dd>
-        
-  <?php endforeach; ?>
+        <?php endforeach; ?>
+  
 	</dl>
 
 </div>

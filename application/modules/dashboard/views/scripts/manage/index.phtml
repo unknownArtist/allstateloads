@@ -2,13 +2,10 @@
 						
 	$role = Zend_Auth::getInstance()->getIdentity()->member_role;
 					
-				?> -->
+				?> --><head>
 
-
-<head>
-
-	<?php echo $this->headScript()->appendFile('/js/script.js') ?>
-    <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
+	 <?php echo $this->headScript()->appendFile('/js/scriptaccord.js') ?>
+   	 <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
     <?php echo $this->headScript()->appendFile('/js/scriptscroller.js') ?>
     
 </head>
@@ -16,7 +13,10 @@
 
 
 
-      <div id="main">  
+      
+
+
+<div id="main">  
       
       <section id="content">
 

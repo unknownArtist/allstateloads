@@ -3,7 +3,7 @@
 			?> --><head>
 
 	  <?php echo $this->headScript()->appendFile('/js/scriptaccord.js') ?>
-   	<?php echo $this->headScript()->appendFile('/js/packed.js') ?>
+   	 <?php echo $this->headScript()->appendFile('/js/packed.js') ?>
     <?php echo $this->headScript()->appendFile('/js/scriptscroller.js') ?>
 
 <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAi0R3quTw1dDEVXhGcF91nxTxAhpynYZ10555ctneyaNYboTkExS_9w2nt91kx5AuybmglX-XA0lPLA" type="text/javascript">  
@@ -106,7 +106,7 @@ Suggested Loads
 	<dl class="accordion" id="slider">
 		<dt>
         
-        <div class="bdline1lefttab1">+
+        <div class="bdline1lefttab1">
 </div>
 <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
 </div>
@@ -700,9 +700,7 @@ Mileage Meter
       <section id="content">
  		<h2>Dashboard:Trucker Account</h2>
 
-	<div id="scroll">
-    
-		<div id="scrollcontent">
+
 
             <div class="bdline1left">
 <div class="bdline1leftheader">
@@ -711,7 +709,7 @@ Suggested Trucks
 
 
 <div class="bdline1lefttitle"> 
-<div class="bdline1lefttab1">
+<div class="bdline1lefttab11">
 </div>
 <div class="bdline1lefttab">Truck ID
 </div>
@@ -725,13 +723,14 @@ Suggested Trucks
 </div>
 </div>
 
-
-
-
-
-
 </div>
             
+            
+            	<div id="scroll">
+    
+		<div id="scrollcontent">
+        
+        
  <div id="accordion">
   
 
@@ -739,7 +738,7 @@ Suggested Trucks
     <?php foreach($this->states as $dd): ?>
 		<dt>
         
-        <div class="bdline1lefttab1">+
+        <div class="bdline1lefttab1">
 </div>
 <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
 </div>
@@ -767,386 +766,7 @@ Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
 		</dd>
         
         
-                                                <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
                                                 
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->  
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 
-                                                 
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->
-                                                 <!-- Dummy -->
-                                                            
-                                                            <dt>
-                                                        
-                                                        <div class="bdline1lefttab1">+
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
-                                                </div>
-                                                <div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
-                                                </div>
-                                                
-                                                        
-                                                        </dt>
-                                                        <dd>
-                                                        <span>
-                                                Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
-                                                Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
-                                                Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
-                                                Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
-                                                Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
-                                                
-                                                </span>
-                                                 
-                                                        </dd>
-                                                 <!--/Dummy-->     
         
         
 		
