@@ -1820,6 +1820,56 @@ dl#accordion {
 		}
 
 
+
+
+
+
+#accordionmn {
+	width: 937px;
+	margin: 0px 0px;
+	padding-bottom:10px;
+}
+
+.accordionmn {
+	width: 937px;
+	font: 12px Verdana,Arial;
+	color: #033;
+}
+
+.accordionmn dt {
+	width: 935px;
+	height: 35px;
+	border: 1px solid #000;
+	padding: 0px;
+	font-weight: bold;
+	margin-top: 5px;
+	cursor: pointer;
+	background-color: #979797;
+	background-image: url(../images/dot.png);
+}
+
+.accordionmn dt:hover {
+	background: url../(images/header_over.gif);
+}
+
+.accordionmn dd {
+	overflow: hidden;
+	background: #fff;
+}
+
+.accordionmn span {
+	display: block;
+	width: 903px;
+	border: 0px solid #9ac1c9;
+	border-top: none;
+	padding: 15px;
+	background-color:#CCC;
+}
+
+
+
+
+
 /* Tooltips */
 .aToolTip {
 	border:2px solid #444;
@@ -3039,10 +3089,10 @@ input.submit:hover {
 }
 
 .bdline1left {
-	width: 660px;
+	width: 679px;
 	height: auto;
 	background-color: #FFF;
-	float: left;
+	float:right;
 	border: 1px solid #000;
 }
 
@@ -3071,20 +3121,22 @@ input.submit:hover {
 .bdline1leftheader {
 	width: 660px;
 	height:35px;
-	color: #000;
+	color: #fff;
 	padding-left:20px;
 	padding-top:8px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:18px;
 	font-weight: 700;
 	margin-bottom:0px;
+	text-align:center;
+	background-color:#333;
 }
 
 
 .bdline1leftheader2 {
 	width: 610px;
 	height: 35px;
-	background-image: url(../images/bg2.jpg);
+	background-color:#333;
 	color: #FFF;
 	padding-left: 20px;
 	padding-top: 7px;
@@ -3121,6 +3173,7 @@ input.submit:hover {
 	font-size: 16px;
 	font-weight: 700;
 	background-color: #979797;
+	background-image: url(../images/dot.png);
 	
 	
 }
@@ -3157,6 +3210,25 @@ input.submit:hover {
 	padding-left: 15px;
 	height: 20px;
 	border-right: 1px dotted #000;
+	background-color:#fff;
+	background-image:url(../images/up_down_arrows.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	float: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFF;
+}
+
+
+.bdline1lefttab11 {
+	width: 20px;
+	padding: 5px;
+	padding-left: 15px;
+	height: 20px;
+	border-right: 1px dotted #000;
 	background-color:#900;
 	float: left;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -3164,6 +3236,7 @@ input.submit:hover {
 	font-weight: 700;
 	color: #FFF;
 }
+
 
 .2bdline1lefttab1 {
 	width:60px;
@@ -3188,6 +3261,9 @@ input.submit:hover {
 	background-color: #FFF;
 	float: left;
 	font-size: 12px;
+	text-align:center;
+	
+	
 }
 
 .bdline1lefttab3 {
@@ -3273,12 +3349,14 @@ width:300px;
 	width: 657px;
 	margin: 0px 0px;
 	padding-bottom:5px;
-	clear:both;	}
+	clear:both;
+	max-height:1000px;}
 
 .accordion {
 	width: 650px;
 	font: 12px Verdana,Arial;
 	color: #033;
+	
 }
 
 .accordion dt {
@@ -3289,7 +3367,8 @@ width:300px;
 	font-weight: bold;
 	margin-top: 5px;
 	cursor: pointer;
-	background-color:#096
+	background-color:#096;
+	
 	
 }
 .2accordion dt {
@@ -3423,7 +3502,7 @@ width:300px;
 	margin-top: 0px;
 	position: relative;
 	width:680px;
-	height:450px;
+	height:350px;
 	overflow: auto;
 	float: right;
 	clear:both;
@@ -3437,15 +3516,12 @@ width:300px;
 
 #scroll_stable {
 	margin-top: 0px;
-	position: relative;
 	width:680px;
 	height:100px;
-	overflow: auto;
 	float: right;
 	clear:both;
 	color:#000;
 	background-color:#ccc;
-	
 }
  
 
@@ -3472,7 +3548,7 @@ width:300px;
 	position: relative;
 	display: none;
 	width: 15px;
-	height: 450px;
+	height:380px;
 	z-index: 100;
 	background: #000 url(../images/scroll-bg.gif);
 }
@@ -3484,7 +3560,7 @@ width:300px;
 	cursor: pointer;
 	background-color:#900;
 	background-image: url(../images/scroll-arrows.gif);
-	background-position: 50% 50%;
+	background-position:50% 50%;
 	background-repeat: no-repeat;
 }
 
@@ -3495,6 +3571,7 @@ width:300px;
 .mnline1 {
 	width: 945px;
 	height: auto;
+	
 }
 
 .mnline1left {
@@ -3504,18 +3581,20 @@ width:300px;
 	float: left;
 	border: 1px solid #000;
 	min-height:500px;
+	margin-bottom:20px;
 }
 
-.mnline1leftheader {
+.mnline1leftheader{
 	width: 917px;
 	height: 45px;
-	background-image: url(../images/bg2.jpg);
+	background-color:#333;
 	color: #FFF;
 	padding-left: 20px;
-	padding-top: 7px;
+	padding-top:15px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 700;
+	text-align:center;
 }
 
 .mnline1lefttitle {
@@ -3530,9 +3609,39 @@ width:300px;
 	background-color: #979797;
 	background-image: url(../images/dot.png);
 }
-
+.mnline1lefttab0{
+	width:30px;
+	padding: 5px;
+	padding-left: 15px;
+	height: 25px;
+	border-2: 1px dotted #000;
+	background-color:#900;
+	
+	float: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFF;
+}
 .mnline1lefttab1 {
-	width: 20px;
+	width:30px;
+	padding: 5px;
+	padding-left: 15px;
+	height: 25px;
+	border-right:1px dotted #000;
+	
+	background-color:#fff;
+	background-image:url(../images/up_down_arrows.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	float: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFF;
+}
+.mnline1lefttab2 {
+	width: 50px;
 	padding: 5px;
 	padding-left: 15px;
 	height: 25px;
@@ -3554,6 +3663,7 @@ width:300px;
 	background-color: #FFF;
 	float: left;
 	font-size: 12px;
+	text-align:center
 }
 
 .mnline1right {
