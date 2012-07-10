@@ -130,6 +130,7 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
 
         //Allow trucker
         $this->_acl->allow('trucker', 'truck')
+             ->allow('trucker', 'user', array('change-password')) //added by sehrish
                    ->allow('trucker', 'dashboard:index')
                    ->allow('trucker', 'dashboard:truck',array('create'))
 				   ->allow('trucker', 'dashboard:search')

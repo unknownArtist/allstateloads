@@ -56,11 +56,11 @@ class Dashboard_TruckController extends Zend_Controller_Action {
                     'email'         => $post['email'],
                     'created'       => date('Y-m-d')
                 );
-
+ 
                // print_r($data);
                // die();
-                
                 $row = $this->_dbTable->createRow($data);
+               
                 if($row->save()) {
                     $this->_redirect('dashboard/manage');
                 }
@@ -70,6 +70,6 @@ class Dashboard_TruckController extends Zend_Controller_Action {
         }
 
         $this->view->form = $form;
-    }
+  }
 
 }

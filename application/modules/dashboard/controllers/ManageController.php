@@ -28,6 +28,10 @@ class Dashboard_ManageController extends Zend_Controller_Action
 
     public function trucksAction()
     {
+      //$select = new Default_Model_DbTable_Truck();
+      //  $id = Zend_auth::getInstance()->getIdentity()->member_id;
+      //  $where = 'owner = ' . "$id";
+      //  $this->view->loads = $select->fetchAll($where);
        $select = $this->_dbTable->select()->where('public = ?', 1);
         $this->view->data = $this->_dbTable->fetchAll($select); 
     }

@@ -161,7 +161,7 @@ class Dashboard_Form_Truck extends Zend_Form
         
 		
 
-        $startGroup = $this->addDisplayGroup(array($startState, $startCity, $startZip, $endState, $endCity, $endZip, $via), 'start',array('tag'=>'div','style'=>	        
+        $startGroup = $this->addDisplayGroup(array($public, $startState, $startCity, $startZip, $endState, $endCity, $endZip, $via), 'start',array('tag'=>'div','style'=>	        
 		'width:43%;
 		float:left;
 		background:;
@@ -189,7 +189,7 @@ class Dashboard_Form_Truck extends Zend_Form
 		
 		
 		
-        $truckDataGroup = $this->addDisplayGroup(array($type, $weight, $feet_left), 'truckData', array('tag'=>'div','style'=>
+        $truckDataGroup = $this->addDisplayGroup(array($type, $weight, $feet, $feet_left, $full), 'truckData', array('tag'=>'div','style'=>
 		'width:43%;
 		float:left;
 		background:;
