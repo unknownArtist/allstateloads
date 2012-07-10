@@ -86,7 +86,7 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
         //Allow Member
         $this->_acl->allow('member', 'truck')
                    ->allow('member', 'dashboard:index')
-				   ->allow('member', 'dashboard:load')
+                   ->allow('member', 'dashboard:load')
                    ->allow('member', 'dashboard:truck')
 				   ->allow('member', 'dashboard:search')
 				   ->allow('member', 'dashboard:manage')
@@ -135,7 +135,8 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
                    ->allow('trucker', 'dashboard:truck',array('create'))
 				   ->allow('trucker', 'dashboard:search')
 				   ->allow('trucker', 'dashboard:manage')
-				   ->allow('trucker', 'user', array('logout', 'profile'));
+
+				   ->allow('trucker', 'user', array('logout', 'profile','change-password'));
                   		  
 				   
 				   
