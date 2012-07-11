@@ -65,7 +65,7 @@ function showLocation() {
       
       <section id="content">
 
-<h2>Search Loads</h2>
+<h2>Search Trucks</h2>
                                 
                 
 
@@ -82,7 +82,7 @@ function showLocation() {
 
 <div class="bdline1left2">
 <div class="bdline1leftheader2">
-    Search your desired loads here.<br /><br />
+    Search your desired trucks here.<br /><br />
 
 <?php echo $this->form; ?>
 </div>
@@ -96,8 +96,8 @@ function showLocation() {
 <div class="formlineoneright">
 <?php if(isset($this->resultOfSearch)): ?>
 <?php foreach($this->resultOfSearch as $dd): ?>
-<?php echo $dd->startCity;  ?> <br />
-<?php echo $dd->endCity; ?>
+<?php echo $dd->s_city;  ?> <br />
+<?php echo $dd->e_city; ?>
 <?php endforeach; ?>
 <?php endif; ?>
 </div>

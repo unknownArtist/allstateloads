@@ -58,7 +58,8 @@ function showLocation() {
 
       
 
-<?php  if ($role == 2 ): ?>
+<?php  $role = Zend_Auth::getInstance()->getIdentity()->member_role;
+ if ($role == 2 ): ?>
 
 
 <div id="main">  
@@ -232,20 +233,20 @@ Suggested Trucks
 </div>
 <div class="bdline1lefttab"><?php echo $dd['id']."<br />"; ?>
 </div>
-<div class="bdline1lefttab"><?php echo $dd['pickupDate']."<br />"; ?>
+<div class="bdline1lefttab"><?php echo $dd['startingDate']."<br />"; ?>
 </div>
-<div class="bdline1lefttab"><?php echo $dd['diliveryDate']."<br />"; ?>
+<div class="bdline1lefttab"><?php echo $dd['endDate']."<br />"; ?>
 </div>
-<div class="bdline1lefttab"><?php echo $dd['startCity']."<br />"; ?>
+<div class="bdline1lefttab"><?php echo $dd['s_city']."<br />"; ?>
 </div>
-<div class="bdline1lefttab"><?php echo $dd['endCity']."<br />"; ?>
+<div class="bdline1lefttab"><?php echo $dd['e_city']."<br />"; ?>
 </div>
 
         
         </dt>
 		<dd>
 		<span>
-Company :        <?php echo $dd['extra']."<br />"; ?>  <br>
+Route :        <?php echo $dd['via']."<br />"; ?>  <br>
 Phone Number  : <?php echo $dd['phone']."<br />"; ?>    <br>
 Email Address   <?php echo $dd['email']."<br />"; ?>  <br>
 Space required :  <?php echo $dd['feet']."<br />"; ?>    <br>
@@ -704,14 +705,14 @@ Mileage Meter
 
             <div class="bdline1left">
 <div class="bdline1leftheader">
-Suggested Trucks
+Suggested Loads
 </div>
 
 
 <div class="bdline1lefttitle"> 
 <div class="bdline1lefttab11">
 </div>
-<div class="bdline1lefttab">Truck ID
+<div class="bdline1lefttab">Load ID
 </div>
 <div class="bdline1lefttab">PickUp Date
 </div>
@@ -766,6 +767,7 @@ Weight of load :        <?php echo $dd['weight']."<br />"; ?>  <br>
 		</dd>
         
         
+
                                                 
         
         
