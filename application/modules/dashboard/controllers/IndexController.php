@@ -39,8 +39,10 @@ class Dashboard_IndexController extends Zend_Controller_Action
              $temp = $db->fetchAll($sql);
              $this->view->states = $temp;
          }
-         elseif($role == 3){
-             $sql = "SELECT newtrucks.s_city, newtrucks.owner, newtrucks.e_city, newtrucks.weight, newtrucks.feet, newtrucks.feet_left, newtrucks.type
+         else{
+             if($role == 3)//loader
+         {
+             $sql = "SELECT newtrucks.s_city, newtrucks.owner, newtrucks.e_city, newtrucks.weight, newtrucks.feet, newtrucks.feet_left, newtrucks.type ,newtrucks.via, newtrucks.id, newtrucks.startingDate, newtrucks.phone, newtrucks.email 
                 FROM newtrucks INNER JOIN loads ON  loads.startCity = newtrucks.s_city
                 WHERE loads.endCity = newtrucks.e_city  
                  AND 
@@ -54,6 +56,9 @@ class Dashboard_IndexController extends Zend_Controller_Action
              $temp = $db->fetchAll($sql);
              $this->view->states = $temp;
          }
+
+         }
+         
 		    }
 
 

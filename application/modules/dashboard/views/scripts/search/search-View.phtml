@@ -89,14 +89,36 @@ function showLocation() {
 
 <br />
 
+<?php $role = Zend_Auth::getInstance()->getIdentity()->member_role; 
+if($role == 3){?>
+
+Leaving from:	<?php echo $this->l_states['s_city'];?> </br>
+Going To:	<?php echo $this->l_states['e_city'];?> </br>
+Weight of truck: 	<?php echo $this->l_states['weight'];?> </br>
+Space:	<?php echo $this->l_states['feet'];?> </br>
+Space left in truck:	<?php echo $this->l_states['feet_left'];?> </br>
+
+	<?php
+
+	//echo "loaders";
+}
+else {
+if($role == 4){?>
+Leaving from:	<?php echo $this->t_states['startCity'];?> </br>
+Going To:	<?php echo $this->t_states['endCity'];?> </br>
+Weight of load: 	<?php echo $this->t_states['weight'];?> </br>
+Space:	<?php echo $this->t_states['feet'];?> </br>
+Pickup date:	<?php echo $this->t_states['pickupDate'];?> </br>
+Delivery date	<?php echo $this->t_states['diliveryDate'];?> </br>
+<?php	
+
+}
+}
+?>
 
 
-<?php if(isset($this->resultOfSearch)): ?>
-<?php foreach($this->resultOfSearch as $dd): ?>
-<?php echo $dd->startCity;  ?> <br />
-<?php echo $dd->endCity; ?>
-<?php endforeach; ?>
-<?php endif; ?>
+
+
 
 
 </div>

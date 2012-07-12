@@ -54,6 +54,7 @@ class Dashboard_TruckController extends Zend_Controller_Action {
                     'type'          => $post['type'],
                     'phone'         => $post['phone'],
                     'email'         => $post['email'],
+                    'via'           => $post['via'],
                     'created'       => date('Y-m-d')
                 );
  

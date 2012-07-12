@@ -135,6 +135,7 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
                    ->allow('trucker', 'dashboard:truck',array('create'))
 				   ->allow('trucker', 'dashboard:search')
 				   ->allow('trucker', 'dashboard:manage')
+           ->allow('trucker', 'dashboard:search', array('search-view'))//added by me
 
 				   ->allow('trucker', 'user', array('logout', 'profile','change-password'));
                   		  
