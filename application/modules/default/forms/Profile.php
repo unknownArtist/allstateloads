@@ -3,7 +3,7 @@
 class Default_Form_Profile extends Zend_Form {
 
     public function init() {
-
+        $this->setAction('');
         $this->setMethod('post');
 
         $email              = new Zend_Form_Element_Text('member_email');

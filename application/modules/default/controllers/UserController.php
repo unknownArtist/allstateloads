@@ -73,6 +73,9 @@ class UserController extends Zend_Controller_Action {
     public function profileAction() {
         $member = new Default_Model_DbTable_Members();
         $this->view->data =$member->find($this->_auth->getIdentity()->member_id)->current()->toArray();
+
+        $member = new Default_Model_DbTable_Members();
+        $this->view->data =$member->find($this->_auth->getIdentity()->member_id)->current()->toArray();
     }
 
     public function registerAction() {
@@ -119,9 +122,24 @@ class UserController extends Zend_Controller_Action {
  	
 	public function changeEmailAction()
     {
+        $form = new Default_Form_Email();
+        if ($this->_request->isPost()) {
+            if ($form->isValid($this->_request->getPost())) {
+                $member = new Default_Model_DbTable_Members();
+                $data = array('member_email'      =>      $form->getValue('email'),'member_phone'   =>  $form->getValue('phone'));
+                $where = 'member_id = ' . Zend_Auth::getInstance()->getIdentity()->member_id . ' ';
+                $member->update($data, $where);
+
+                $this->_redirect('/user/profile');
         echo "hello";
+        }
+        }
+        $this->view->form = $form;
     }
 
+
+  
+    
      private function randGenAction()
     {
        $length=15;

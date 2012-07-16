@@ -1,5 +1,3 @@
-
-
 <!--		<?php			
 			$role = Zend_Auth::getInstance()->getIdentity()->member_role;
 			?> -->
@@ -20,7 +18,7 @@
 <body onLoad="initialize()" >
 
         
-                &nbsp;&nbsp;<h2>Account Settings</h2>
+                &nbsp;&nbsp;<h2>Change email and Contact Number</h2>
                                 
                 
 
@@ -38,19 +36,16 @@
 <div class="bdline1left2">
 <div class="bdline1leftheader2">
     <?php echo $this->data['member_username']; ?> your account settings<br /><br />
+
+<h2>
+
 </div>
 <br /><br />
+<?php echo $this->form; ?></h2>
 
 
-	<p>Email: <?php echo $this->data['member_email']; ?></p>
-    <br /><br />
 
-    
-    
-	
-	<a href="/user/change-password" class="submit" ><input  type="button" class="submit" value="Change Password"></a><br/>
 
- <a href="/user/change-email" class="submit"><input type="button" class="submit" value="Change email or contact number"></a><br/> 
 
 
 
@@ -77,10 +72,11 @@
 
 <div class="advert">
 
+
 <a href="http://www.winwinhost.com" target="_blank" > <img  src="../images/red.png" alt="winwinhost" /> </a>
 
-
 </div>
+
 
 
 
@@ -106,10 +102,4 @@ slider1.init("slider");
 
 TINY.scroller.init('scroll','scrollcontent','scrollbar','scroller','buttonclick');
 </script>
-
-
-
-        
-
-
 

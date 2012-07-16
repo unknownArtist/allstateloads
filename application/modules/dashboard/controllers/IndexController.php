@@ -25,11 +25,14 @@ class Dashboard_IndexController extends Zend_Controller_Action
         if($role == 4)//trucker
         {
        
-         $sql = "SELECT loads.startCity, loads.owner, loads.endCity, loads.id, loads.truckType, loads.diliveryDate, loads.pickupDate ,loads.phone ,loads.extra ,loads.email ,loads.feet , loads.weight
-                FROM loads INNER JOIN newtrucks ON newtrucks.s_city = loads.startCity  
-                WHERE newtrucks.e_city = loads.endCity  
+         $sql = "SELECT loads.owner, loads.startCity, loads.endCity, loads.id, loads.diliveryDate, loads.pickupDate ,loads.phone ,loads.extra ,loads.email ,loads.feet , loads.weight
+                FROM loads INNER JOIN newtrucks ON newtrucks.s_city = loads.startCity OR newtrucks.via1 = loads.startCity OR newtrucks.via2 = loads.startCity OR newtrucks.via3 = loads.startCity 
+                WHERE newtrucks.e_city = loads.endCity 
                  AND 
                 newtrucks.owner = '$Identity'
+                OR newtrucks.via1 = loads.endCity 
+                OR newtrucks.via2 = loads.endCity 
+                OR newtrucks.via3 = loads.endCity 
                 AND newtrucks.feet_left >= loads.feet
                 AND newtrucks.weight >= loads.weight
                 AND newtrucks.type = loads.truckType 
@@ -42,11 +45,14 @@ class Dashboard_IndexController extends Zend_Controller_Action
          else{
              if($role == 3)//loader
          {
-             $sql = "SELECT newtrucks.s_city, newtrucks.owner, newtrucks.e_city, newtrucks.weight, newtrucks.feet, newtrucks.feet_left, newtrucks.type ,newtrucks.via, newtrucks.id, newtrucks.startingDate, newtrucks.phone, newtrucks.email 
-                FROM newtrucks INNER JOIN loads ON  loads.startCity = newtrucks.s_city
-                WHERE loads.endCity = newtrucks.e_city  
+             $sql = "SELECT newtrucks.s_city, newtrucks.owner, newtrucks.e_city, newtrucks.weight, newtrucks.feet, newtrucks.feet_left, newtrucks.type ,newtrucks.via1, newtrucks.via2,newtrucks.via3, newtrucks.id, newtrucks.startingDate, newtrucks.phone, newtrucks.email
+                FROM newtrucks INNER JOIN loads ON loads.startCity = newtrucks.s_city OR loads.startCity = newtrucks.via1 OR loads.startCity = newtrucks.via2 OR loads.startCity = newtrucks.via3
+                WHERE loads.endCity = newtrucks.e_city 
                  AND 
                 loads.owner = '$Identity'
+                OR loads.endCity = newtrucks.via1 
+                OR loads.endCity = newtrucks.via2  
+                OR loads.endCity = newtrucks.via3  
                 AND loads.feet <= newtrucks.feet_left 
                 AND loads.weight <= newtrucks.weight 
                 AND loads.truckType = newtrucks.type 

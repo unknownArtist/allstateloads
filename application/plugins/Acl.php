@@ -90,7 +90,7 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
                    ->allow('member', 'dashboard:truck')
 				   ->allow('member', 'dashboard:search')
 				   ->allow('member', 'dashboard:manage')
-                   ->allow('member', 'user', array('logout', 'profile','change-password'));
+                   ->allow('member', 'user', array('logout', 'profile','change-password','change-email'));//added by sehrish
 				   
 				   
 				   
@@ -108,6 +108,7 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
         //Allow shipper
         $this->_acl->allow('shipper', 'truck')
 				   ->allow('shipper', 'user', array('change-password'))
+           ->allow('shipper', 'user', array('change-email'))// added by sehrish
                    ->allow('shipper', 'dashboard:index')
 				   ->allow('shipper', 'dashboard:load')
 				   ->allow('shipper', 'dashboard:search')
@@ -130,14 +131,16 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
 
         //Allow trucker
         $this->_acl->allow('trucker', 'truck')
-             ->allow('trucker', 'user', array('change-password')) 
+             ->allow('trucker', 'user', array('change-password'))
+             ->allow('trucker', 'user', array('change-email')) //added by sehrish
+
                    ->allow('trucker', 'dashboard:index')
                    ->allow('trucker', 'dashboard:truck',array('create'))
 				   ->allow('trucker', 'dashboard:search')
 				   ->allow('trucker', 'dashboard:manage')
            ->allow('trucker', 'dashboard:search', array('search-view'))//added by me
 
-				   ->allow('trucker', 'user', array('logout', 'profile','change-password'));
+				   ->allow('trucker', 'user', array('logout', 'profile','change-password','change-email'));//added by sehrish
                   		  
 				   
 				   
