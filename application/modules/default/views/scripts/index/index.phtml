@@ -90,101 +90,37 @@ Members can view details about loads
 
 	<dl class="2accordion" id="slider">
 		<dt>
-        
-        
-<div class="bdline1lefttab3">11-11-2011
+    
+    <?php foreach($this->l_data as $load): ?>
+      
+<div class="bdline1lefttab3"><?php echo $load['pickupDate']?>
 </div>
-<div class="bdline1lefttab3">San Jose
+<div class="bdline1lefttab3"><?php echo $load['startCity']?>
 </div>
-<div class="bdline1lefttab3">San Francisco
+<div class="bdline1lefttab3"><?php echo $load['endCity']?>
 </div>
-
-
+<?php endforeach; ?>
 </dt>
-
 	</dl>
-
+  
 </div>
 
 
-<div id="2accordion">
 
 
-	<dl class="2accordion" id="slider">
+	<!-- 
+  <div id="2accordion">
+  <dl class="2accordion" id="slider">
 		<dt>
         
-        
-<div class="bdline1lefttab3">11-11-2011
+     
+<div class="bdline1lefttab3"><?php //echo $load['pickupDate']?>
 </div>
-<div class="bdline1lefttab3">San Jose
+<div class="bdline1lefttab3"><?php// echo $load[5]['startCity']?>
 </div>
-<div class="bdline1lefttab3">San Francisco
-</div>
-
-</dt>
-
-	</dl>
-
+<div class="bdline1lefttab3"><?php //echo $load[5]['endCity']?>
 </div>
 
-<div id="2accordion">
-
-
-	<dl class="2accordion" id="slider">
-		<dt>
-        
-        
-<div class="bdline1lefttab3">11-11-2011
-</div>
-<div class="bdline1lefttab3">San Jose
-</div>
-<div class="bdline1lefttab3">San Francisco
-</div>
-
-</dt>
-
-	</dl>
-
-</div>
-
-
-
-
-<div id="2accordion">
-
-
-	<dl class="2accordion" id="slider">
-		<dt>
-        
-        
-<div class="bdline1lefttab3">11-11-2011
-</div>
-<div class="bdline1lefttab3">San Jose
-</div>
-<div class="bdline1lefttab3">San Francisco
-</div>
-
-</dt>
-
-	</dl>
-
-</div>
-
-
-
-<div id="2accordion">
-
-
-	<dl class="2accordion" id="slider">
-		<dt>
-        
-        
-<div class="bdline1lefttab3">11-11-2011
-</div>
-<div class="bdline1lefttab3">San Jose
-</div>
-<div class="bdline1lefttab3">San Francisco
-</div>
 
 </dt>
 
@@ -199,11 +135,56 @@ Members can view details about loads
 		<dt>
         
         
-<div class="bdline1lefttab3">11-11-2011
+<div class="bdline1lefttab3"><?php //echo $load[4]['pickupDate']?>
 </div>
-<div class="bdline1lefttab3">San Jose
+<div class="bdline1lefttab3"><?php// echo $load[4]['startCity']?>
 </div>
-<div class="bdline1lefttab3">San Francisco
+<div class="bdline1lefttab3"><?php //echo $load[4]['endCity']?>
+</div>
+
+</dt>
+
+	</dl>
+
+</div>
+
+
+
+
+<div id="2accordion">
+
+
+	<dl class="2accordion" id="slider">
+		<dt>
+        
+        
+<div class="bdline1lefttab3"><?php //echo $load[3]['pickupDate']?>
+</div>
+<div class="bdline1lefttab3"><?php// echo $load[3]['startCity']?>
+</div>
+<div class="bdline1lefttab3"><?php //echo $load[3]['endCity']?>
+</div>
+
+</dt>
+
+	</dl>
+
+</div>
+
+
+
+<div id="2accordion">
+
+
+	<dl class="2accordion" id="slider">
+		<dt>
+        
+        
+<div class="bdline1lefttab3"><?php// echo $load[2]['pickupDate']?>
+</div>
+<div class="bdline1lefttab3"><?php// echo $load[2]['startCity']?>
+</div>
+<div class="bdline1lefttab3"><?php// echo $load[2]['endCity']?>
 </div>
 
 </dt>
@@ -219,21 +200,42 @@ Members can view details about loads
 		<dt>
         
         
-<div class="bdline1lefttab3">11-11-2011
+<div class="bdline1lefttab3"><?php //echo $load[1]['pickupDate']?>
 </div>
-<div class="bdline1lefttab3">San Jose
+<div class="bdline1lefttab3"><?php //echo $load[1]['startCity']?>
 </div>
-<div class="bdline1lefttab3">San Francisco
+<div class="bdline1lefttab3"><?php //echo $load[1]['endCity']?>
 </div>
+
 </dt>
 
 	</dl>
 
 </div>
 
+<div id="2accordion">
 
+
+	<dl class="2accordion" id="slider">
+		<dt>
+        
+        
+<div class="bdline1lefttab3"><?php// echo $load[0]['pickupDate']?>
+</div>
+<div class="bdline1lefttab3"><?php// echo $load[0]['startCity']?>
+</div>
+<div class="bdline1lefttab3"><?php// echo $load[0]['endCity']?>
+
+</dt>
+<?php //endforeach; ?>
+	</dl>
 
 </div>
+
+
+ -->
+ </div>
+
                             
                             
                             <a class="button" href="<?php echo $this->url(array(
@@ -313,13 +315,33 @@ Members can view details about Trucks
 </div>
 <div class="bdline1lefttab3"><h5>Starting from</h5>
 </div>
-<div class="bdline1lefttab3"><h5>Dessstination</h5s>
+<div class="bdline1lefttab3"><h5>Destination</h5>
 </div>
 
 </div>
 
 
 <div id="2accordion">
+
+
+	<dl class="2accordion" id="slider">
+		<dt>
+        
+      <?php foreach($this->t_data as $truck):?>  
+<div class="bdline1lefttab3"><?php echo $truck['startingDate']; ?>
+</div>
+<div class="bdline1lefttab3"><?php echo $truck['s_city']; ?>
+</div>
+<div class="bdline1lefttab3"><?php echo $truck['e_city']; ?>
+</div>
+<?php endforeach; ?>
+</dt>
+
+	</dl>
+
+</div>
+
+<!-- <div id="2accordion">
 
 
 	<dl class="2accordion" id="slider">
@@ -338,47 +360,6 @@ Members can view details about Trucks
 	</dl>
 
 </div>
-
-<div id="2accordion">
-
-
-	<dl class="2accordion" id="slider">
-		<dt>
-        
-        
-<div class="bdline1lefttab3">11-11-2011
-</div>
-<div class="bdline1lefttab3">San Jose
-</div>
-<div class="bdline1lefttab3">San Francisco
-</div>
-
-</dt>
-
-	</dl>
-
-</div>
-
-<div id="2accordion">
-
-
-	<dl class="2accordion" id="slider">
-		<dt>
-        
-        
-<div class="bdline1lefttab3">11-11-2011
-</div>
-<div class="bdline1lefttab3">San Jose
-</div>
-<div class="bdline1lefttab3">San Francisco
-</div>
-
-</dt>
-
-	</dl>
-
-</div>
-
 
 <div id="2accordion">
 
@@ -464,8 +445,28 @@ Members can view details about Trucks
 </div>
 
 
+<div id="2accordion">
+
+
+	<dl class="2accordion" id="slider">
+		<dt>
+        
+        
+<div class="bdline1lefttab3">11-11-2011
+</div>
+<div class="bdline1lefttab3">San Jose
+</div>
+<div class="bdline1lefttab3">San Francisco
+</div>
+
+</dt>
+
+	</dl>
 
 </div>
+
+ -->
+ </div>
                             
                             
                             <a class="button" href="<?php echo $this->url(array(
@@ -478,7 +479,7 @@ Members can view details about Trucks
                         	<h2>Support</h2>
 
                         
-                        <a href="#" class="button3">Write Us</a>
+                        <a href="#" class="button3">Write To Us</a>
                         <a href="#" class="button3">Live Chat</a>
                         <a href="#" class="button3">Live call </a>
                         
@@ -518,8 +519,8 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                     </div>
                     
                     <div class="indent2">
-                    	<h2>What allstateloads Do</h2>
-                        <a href="#" class="button3">How It Work</a>
+                    	<h2>What 'allstateloads' Does?</h2>
+                        <a href="#" class="button3">How It Works</a>
                         <a href="#" class="button3">Frequently Asked Questions</a>
                         <a href="#" class="button3">Testimonials</a>
                     </div>
