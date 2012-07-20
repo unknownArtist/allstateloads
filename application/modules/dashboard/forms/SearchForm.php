@@ -6,7 +6,7 @@ class Dashboard_Form_SearchForm extends Zend_Form
     public function init()
     {
         
-        $this->setAction('search-view');
+        $this->setAction('loaders');
         $this->setMethod('post');
         
         
