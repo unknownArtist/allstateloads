@@ -113,7 +113,8 @@ final class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract  {
 				   ->allow('shipper', 'dashboard:load')
 				   ->allow('shipper', 'dashboard:search')
 				   ->allow('shipper', 'dashboard:manage')
-                   ->allow('shipper', 'user', array('logout', 'profile'));		
+           
+           ->allow('shipper', 'user', array('logout', 'profile'));		
 				   
 				   
 				   
