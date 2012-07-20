@@ -89,20 +89,20 @@ class Dashboard_Form_Truck extends Zend_Form
 		
 		
 		
-		$via1 = new Zend_Form_Element_Text('via1');
-        $via1->setLabel('IN which Cities Truck will have Stops write like " Dallas , Denver , San Francisco "');
-        //validacija
-		$via1->class = "text";
+		// $via1 = new Zend_Form_Element_Text('via1');
+  //       $via1->setLabel('IN which Cities Truck will have Stops write like " Dallas , Denver , San Francisco "');
+  //       //validacija
+		// $via1->class = "text";
 
-		$via2 = new Zend_Form_Element_Text('via2');
-        $via2->setLabel('IN which Cities Truck will have Stops write like " Dallas , Denver , San Francisco "');
-        //validacija
-		$via2->class = "text";
+		// $via2 = new Zend_Form_Element_Text('via2');
+  //       $via2->setLabel('IN which Cities Truck will have Stops write like " Dallas , Denver , San Francisco "');
+  //       //validacija
+		// $via2->class = "text";
 
-		$via3 = new Zend_Form_Element_Text('via3');
-        $via3->setLabel('IN which Cities Truck will have Stops write like " Dallas , Denver , San Francisco "');
-        //validacija
-		$via3->class = "text";
+		// $via3 = new Zend_Form_Element_Text('via3');
+  //       $via3->setLabel('IN which Cities Truck will have Stops write like " Dallas , Denver , San Francisco "');
+  //       //validacija
+		// $via3->class = "text";
 		
 
 
@@ -168,7 +168,7 @@ class Dashboard_Form_Truck extends Zend_Form
         
 		
 
-        $startGroup = $this->addDisplayGroup(array($public, $startState, $startCity, $startZip, $endState, $endCity, $endZip, $via1, $via2, $via3), 'start',array('tag'=>'div','style'=>	        
+        $startGroup = $this->addDisplayGroup(array($public, $startState, $startCity, $startZip, $endState, $endCity, $endZip), 'start',array('tag'=>'div','style'=>	        
 		'width:43%;
 		float:left;
 		background:;

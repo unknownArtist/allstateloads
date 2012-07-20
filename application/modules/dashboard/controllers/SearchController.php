@@ -98,6 +98,9 @@ class Dashboard_SearchController extends Zend_Controller_Action
           
        $Identity = Zend_Auth::getInstance()->getIdentity()->member_id;
        $role = Zend_Auth::getInstance()->getIdentity()->member_role;
+        $form = new Dashboard_Form_SearchForm();
+         $pickupDate            = $form->getValue('selectDate');
+
           // echo $role;
           // die();
                  $db = Zend_Db::factory('Pdo_Mysql', array(
@@ -114,40 +117,35 @@ class Dashboard_SearchController extends Zend_Controller_Action
         {
        
          $sql = "SELECT loads.owner, loads.startCity, loads.endCity, loads.id, loads.diliveryDate, loads.pickupDate ,loads.phone ,loads.extra ,loads.email ,loads.feet , loads.weight
-                FROM loads INNER JOIN newtrucks ON newtrucks.s_city = loads.startCity OR newtrucks.via1 = loads.startCity OR newtrucks.via2 = loads.startCity OR newtrucks.via3 = loads.startCity 
+                FROM loads INNER JOIN newtrucks ON newtrucks.s_city = loads.startCity
                 WHERE newtrucks.e_city = loads.endCity 
                  AND 
                 newtrucks.owner = '$Identity'
-                OR newtrucks.via1 = loads.endCity 
-                OR newtrucks.via2 = loads.endCity 
-                OR newtrucks.via3 = loads.endCity 
                 AND newtrucks.feet_left >= loads.feet
                 AND newtrucks.weight >= loads.weight
                 AND newtrucks.type = loads.truckType 
+
                ";
              
 
              $temp1 = $db->fetchRow($sql);
              $this->view->t_states = $temp1;
+
          }
          else
           {
-            if($role == 3){
-            
-             $sql = "SELECT newtrucks.s_city, newtrucks.owner, newtrucks.e_city, newtrucks.weight, newtrucks.feet, newtrucks.feet_left, newtrucks.type ,newtrucks.via1, newtrucks.via2,newtrucks.via3, newtrucks.id, newtrucks.startingDate, newtrucks.phone, newtrucks.email
-                FROM newtrucks INNER JOIN loads ON loads.startCity = newtrucks.s_city OR loads.startCity = newtrucks.via1 OR loads.startCity = newtrucks.via2 OR loads.startCity = newtrucks.via3
-                WHERE loads.endCity = newtrucks.e_city 
-                 AND 
-                loads.owner = '$Identity'
-                OR loads.endCity = newtrucks.via1 
-                OR loads.endCity = newtrucks.via2  
-                OR loads.endCity = newtrucks.via3  
+            if($role == 3)//loader
+            {
+      
+             $sql = "SELECT newtrucks.s_city, newtrucks.owner, newtrucks.e_city, newtrucks.weight, newtrucks.feet, newtrucks.feet_left, newtrucks.type ,newtrucks.id, newtrucks.startingDate, newtrucks.phone, newtrucks.email
+                FROM newtrucks INNER JOIN loads ON loads.startCity = newtrucks.s_city
+                WHERE loads.endCity = newtrucks.e_city
+                AND loads.owner = '$Identity'
                 AND loads.feet <= newtrucks.feet_left 
                 AND loads.weight <= newtrucks.weight 
-                AND loads.truckType = newtrucks.type 
+                AND loads.truckType = newtrucks.type
                "; 
              
-
              $temp2 = $db->fetchRow($sql);
              $this->view->l_states = $temp2;
          } 

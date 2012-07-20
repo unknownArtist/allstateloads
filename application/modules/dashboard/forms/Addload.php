@@ -223,7 +223,7 @@ class Dashboard_Form_Addload extends Zend_Form
 		
 		
 					   
-         $submit = new Zend_Form_Element_Submit('submit', 'Poste Load');
+         $submit = new Zend_Form_Element_Submit('submit', 'Post Load');
 		 $submit->class = "submit";
 
          $this->addElements(array(
